@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: ${layoutColors.primary};
+    background-color: rgba(25, 6, 50, 0.5);
     filter: blur(80px);
     filter: drop-shadow(0px 1px 8px ${layoutColors.shadow});
   }
