@@ -2,6 +2,9 @@ import styled from "styled-components";
 import { layoutColors } from "./colors";
 
 export const Wrapper = styled.div`
+  max-width: 100vw;
+  overflow: hidden;
+  position: relative;
 
   &::before {
     content: "";
