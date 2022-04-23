@@ -1,0 +1,214 @@
+[
+  {
+    "id": "bootcamp01",
+    "modulo": "Módulo I - Conteúdo de abertura",
+    "activity": "Lógica de Programação Essencial",
+    "github": "COLOCAR",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": ""
+    },
+    "description": "Entendendo o que é lógica.",
+    "learned": [
+      "O que é lógica",
+      "Algoritmos e pseudo códico",
+      "Fluxograma, variáveis e constantes",
+      "Tomadas de decisões e expressões",
+      "Estrutura de repetição",
+      "O que são linguagens de programação",
+      "Desvios condicionais e Boas práticas em programação",
+      "Laços de repetição em Portugol",
+      "Aplicação prática com matrizes e vetores"
+    ],
+    "certificate": "https://www.dio.me/certificate/C6997FA3/share"
+  },
+  {
+    "id": "bootcamp02",
+    "modulo": "Módulo I - Conteúdo de abertura",
+    "activity": "Curso Introdução ao Git e ao GitHub",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": ""
+    },
+    "description": "Entendendo o que é Git e sua importância",
+    "learned": [
+      "O que é Git e sua importância",
+      "Comandos básicos para um bom desempenho no terminal",
+      "Instalação do Git",
+      "Git por baixo dos panos",
+      "Objetos internos do Git",
+      "Criando commit",
+      "Passo a passo no ciclo de vida",
+      "Trabalhando com GitHub",
+      "Resolvendo conflitos"
+    ],
+    "certificate": "https://www.dio.me/certificate/9B6ABFBF/share"
+  },
+  {
+    "id": "bootcamp03",
+    "modulo": "Módulo I - Conteúdo de abertura",
+    "activity": "Desafio Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "desafio",
+      "tag2": ""
+    },
+    "description": "Reforce seu conhecimento em Git com um desafio de projeto totalmente prático, onde você executará todos os passos para a criação, atualização e sincronização de um repositório no GitHub. Para isso, tenha em mente todas as dicas e direcionamen tos apresentados pelo expert nas aulas. Dessa forma, você poderá compartilhar suas anotações e exercícios em seu próprio repositório. Criando assim, o primeiro (de muitos) projetos do seu portfólio.",
+    "learned": [
+
+    ],
+    "certificate": ""
+  },
+  {
+    "id": "bootcamp04",
+    "modulo": "Módulo II - HTML/ CSS",
+    "activity": "Curso Primeiros passos para desenvolvimento web",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": "html css"
+    },
+    "description": "Introdução ao tema",
+    "learned":[
+      "O que é internet",
+      "Como funciona a internet",
+      "TCP/IP, UPD, Portas, Roteadores, Switches e Modems",
+      "Dados móveis, Wi-Fi, Bluetooth",
+      "Browser, sites, aplicativo, e-commerce",
+      "Web-server",
+      "Stacks",
+      "Definição de Front-end, Back-end e Fullstack",
+      "LPs e termos"
+    ],
+    "certificate":""
+  },
+  {
+    "id": "bootcamp05",
+    "modulo": "Módulo II - HTML/ CSS",
+    "activity": "Curso Introdução a criação de websites com HTML5 e CSS3",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": "html css"
+    },
+    "description": "Estrutura básica",
+    "learned":[
+      "Estrutura básica",
+      "Semântica",
+      "Tags",
+      "Listas em HTML",
+      "Conceitos básicos de CSS3",
+      "Estilizar elementos, textos e listas",
+      "Dimensões e alinhamentos"
+    ],
+    "certificate":"https://www.dio.me/certificate/341637E6/share"
+  },
+  {
+    "id": "bootcamp06",
+    "modulo": "Módulo II - HTML/ CSS",
+    "activity": "Curso Posicionando elementos com Flexbox em CSS",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": "html css"
+    },
+    "description": "Fundamentos do Flexbox",
+    "learned":[
+      "display flex",
+      "flex direction",
+      "flex wrap",
+      "flex flow",
+      "justify content",
+      "align items",
+      "align content",
+      "flex grow",
+      "flex basis",
+      "flex shrink",
+      "flex, order, align self"
+    ],
+    "certificate":""
+  },
+  {
+    "id": "bootcamp07",
+    "modulo": "Módulo II - HTML/ CSS",
+    "activity": "Primeiros passos para desenvolvimento web",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": "html css"
+    },
+    "description": "Nesse projeto você terá o desafio de reconstruir a página de login do Instagram. Para isso, é recomendado o uso de CSS com Flexbox, uma das abordagens de posicionamento de elementos mais utilizadas quando se trata de responsividade. Além disso, a expert disponibiliza todo o material necessário em seu GitHub para que você possa utilizá-lo como referência para a sua solução.",
+    "learned":[],
+    "certificate":"https://www.dio.me/certificate/6094510D/share"
+  },
+  {
+    "id": "bootcamp08",
+    "modulo": "Módulo III - JavaScript",
+    "activity": "Primeiros passos para desenvolvimento web",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": "html css"
+    },
+    "description": "",
+    "learned":[],
+    "certificate":""
+  },
+  {
+    "id": "bootcamp09",
+    "modulo": "Módulo I - HTML/ CSS",
+    "activity": "Primeiros passos para desenvolvimento web",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": "html css"
+    },
+    "description": "",
+    "learned":[],
+    "certificate":""
+  },
+  {
+    "id": "bootcamp10",
+    "modulo": "Módulo I - HTML/ CSS",
+    "activity": "Primeiros passos para desenvolvimento web",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": {
+      "tag1": "curso",
+      "tag2": "html css"
+    },
+    "description": "",
+    "learned":[],
+    "certificate":""
+  }
+]
