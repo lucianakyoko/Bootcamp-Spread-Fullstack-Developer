@@ -3,19 +3,6 @@ import { layoutColors } from '../../styles/colors';
 
 export const Container = styled.div`
   width: 100%;
-  padding: 4rem 0;
-
-  position: relative;
-  &::after {
-    content: "";
-    width: 100px;
-    height: 4px;
-    background-color: ${layoutColors.highlight};
-
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
 `
 
 export const Text = styled.p`

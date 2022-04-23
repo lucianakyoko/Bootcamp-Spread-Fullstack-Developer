@@ -4,16 +4,6 @@ import { layoutColors } from "../../../../styles/colors";
 export const Container = styled.div`
   position: relative;
   padding-bottom: 24px;
-
-  &::after {
-    content: "";
-    width: 100px;
-    height: 4px;
-    background-color: ${layoutColors.highlight};
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
 `;
 
 export const ImageWrapper = styled.div`
