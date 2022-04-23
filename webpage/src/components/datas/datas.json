@@ -178,37 +178,5 @@
     "description": "",
     "learned":[],
     "certificate":""
-  },
-  {
-    "id": "bootcamp09",
-    "modulo": "Módulo I - HTML/ CSS",
-    "activity": "Primeiros passos para desenvolvimento web",
-    "github": "",
-    "page": "",
-    "post": "", 
-    "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": "html css"
-    },
-    "description": "",
-    "learned":[],
-    "certificate":""
-  },
-  {
-    "id": "bootcamp10",
-    "modulo": "Módulo I - HTML/ CSS",
-    "activity": "Primeiros passos para desenvolvimento web",
-    "github": "",
-    "page": "",
-    "post": "", 
-    "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": "html css"
-    },
-    "description": "",
-    "learned":[],
-    "certificate":""
   }
 ]
