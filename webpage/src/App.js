@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Home from "./components/pages/home";
 
 import { Wrapper } from "./styles/app";
 import GlobalStyles from "./styles/GlobalStyles";
@@ -10,6 +11,7 @@ function App() {
     <Wrapper>
       <GlobalStyles />
       <Header />
+      <Home />
     </Wrapper>
   );
 }
