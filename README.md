@@ -5,9 +5,9 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 
 ## Módulo I: Conteúdo de abertura
 | Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
-| --- | --- | --- | --- | ---|
+| --- | --- | --- | --- | --- |
 | Curso - Logica de Programacao Essencial | [Repositório do curso](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Logica%20de%20Programacao%20Essencial) | [Abrir anotacoes](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Logica%20de%20Programacao%20Essencial/anotacoes.MD) | X | X |
- 
+| Curso - Introdução ao Git e GitHub | [Repositório do curso](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Introducao%20ao%20Git%20e%20Github) | [Abrir anotacoes](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Introducao%20ao%20Git%20e%20Github/anotacoes.md) | X | X |
 
 ---
 
