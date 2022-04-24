@@ -11,3 +11,12 @@ Resposta: A primeira compra foi um CD de Sting (Ten Summoner's Tales) no valor d
 
 ### Qual o site mais antigo em atividade?
 Resposta: Criado em 1º de janeiro de 1985, o site chamado NORDUnet - nordu.net (agência internacional que conecta as redes nacionais de pesquisa e educação dos países nórdicos). Tanto a empresa como o site seguem na ativa.
+
+---
+
+### Use o terminal de comandos para descobrir o endereço de sites famosos
+1 - Aperte windows + R
+2 - Digite cmd e aperte enter
+3 - digite ping <site>
+4 - veja o resultado
+

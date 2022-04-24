@@ -1,4 +1,4 @@
-# O que é internet
+# O QUE É INTERNET
 ## História
 * 1969: 
   - EUA 
@@ -108,3 +108,32 @@
 * 40 a 50% maior do que no mesmo período de 2019
 * Velocidade média de download: 21,9mbps (-10Mbps em março)
 * upload: 14,8Mbps / latência: 27,7ms
+
+---
+
+# COMO FUNCIONA A INTERNET
+## Redes
+* Backbone:
+  * Tradução: Espinha dorsal, Costelas
+  * Poucas
+  * Espalhadas pelo mundo
+
+* Provedor de acesso:
+  * Empresas telefônicas
+  * Contratam o sinal do backbone e repassam ao usuário final (nós, empresas)
+
+* Provedor de serviço:
+  * Dial-up (internet discada)
+  * ADSL (banda larga)
+  * Fibra ótica
+  * Rádio
+  * Via satélite
+  * Móvel
+  * P2P (peer to peer)
+
+* Caminho inverso:
+  * www
+  * DNS
+  * IP
+  * Classes de redes
+  * 127.0.0.1 (localhost)
