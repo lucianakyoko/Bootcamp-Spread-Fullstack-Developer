@@ -3,12 +3,13 @@
     "id": "bootcamp01",
     "modulo": "Módulo I - Conteúdo de abertura",
     "activity": "Lógica de Programação Essencial",
-    "github": "",
-    "page": "",
+    "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Logica%20de%20Programacao%20Essencial",
+    "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Logica%20de%20Programacao%20Essencial/anotacoes.MD",
     "post": "", 
     "image": "",
     "tags":[ 
-      "curso"      
+      "curso",
+      "lógica"     
     ],
     "description": "Entendendo o que é lógica.",
     "learned": [
@@ -28,14 +29,14 @@
     "id": "bootcamp02",
     "modulo": "Módulo I - Conteúdo de abertura",
     "activity": "Curso Introdução ao Git e ao GitHub",
-    "github": "",
-    "page": "",
+    "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Introducao%20ao%20Git%20e%20Github",
+    "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Introducao%20ao%20Git%20e%20Github/anotacoes.md",
     "post": "", 
     "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": ""
-    },
+    "tags": [
+      "curso",
+      "Git GitHub"
+    ],
     "description": "Entendendo o que é Git e sua importância",
     "learned": [
       "O que é Git e sua importância",
@@ -55,7 +56,7 @@
     "modulo": "Módulo I - Conteúdo de abertura",
     "activity": "Desafio Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu",
     "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
-    "page": "",
+    "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
     "post": "", 
     "image": "activity03",
     "tags": {
