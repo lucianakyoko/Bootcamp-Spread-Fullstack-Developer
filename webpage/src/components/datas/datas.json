@@ -3,14 +3,13 @@
     "id": "bootcamp01",
     "modulo": "Módulo I - Conteúdo de abertura",
     "activity": "Lógica de Programação Essencial",
-    "github": "COLOCAR",
+    "github": "",
     "page": "",
     "post": "", 
     "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": ""
-    },
+    "tags":[ 
+      "curso"      
+    ],
     "description": "Entendendo o que é lógica.",
     "learned": [
       "O que é lógica",
@@ -55,19 +54,21 @@
     "id": "bootcamp03",
     "modulo": "Módulo I - Conteúdo de abertura",
     "activity": "Desafio Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu",
-    "github": "",
+    "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
     "page": "",
     "post": "", 
-    "image": "",
+    "image": "activity03",
     "tags": {
       "tag1": "desafio",
-      "tag2": ""
+      "tag2": "Git GitHub"
     },
     "description": "Reforce seu conhecimento em Git com um desafio de projeto totalmente prático, onde você executará todos os passos para a criação, atualização e sincronização de um repositório no GitHub. Para isso, tenha em mente todas as dicas e direcionamen tos apresentados pelo expert nas aulas. Dessa forma, você poderá compartilhar suas anotações e exercícios em seu próprio repositório. Criando assim, o primeiro (de muitos) projetos do seu portfólio.",
     "learned": [
-
+      "Criar um novo repositório no Github",
+      "Clonar o repositório para trabalhar localmente",
+      "Enviar alterações do repositório para o Github"
     ],
-    "certificate": ""
+    "certificate": "https://www.dio.me/certificate/B42E9D50/share"
   },
   {
     "id": "bootcamp04",
