@@ -1,7 +1,14 @@
-import React from 'react';
-import { Wrapper, Logo, BurgerMenu } from './style';
+import React, {useState} from 'react';
+import Sidebar from './Sidebar';
+import { Logo } from '../../styles/ui';
+import { Wrapper, BurgerMenu } from './style';
 
 const Header = () => {
+  const [menu, setMenu] = useState(false);
+  function handleClick() {
+    setMenu(!menu);
+  };
+
   return (
     <Wrapper>
       <Logo 
@@ -10,7 +17,8 @@ const Header = () => {
         target="_blank"
         title="lucianakyoko.com"
       >LK</Logo>
-      <BurgerMenu title='abrir menu'>menu</BurgerMenu>
+      <BurgerMenu onClick={handleClick} title='abrir menu'>menu</BurgerMenu>
+      {menu && <Sidebar onClick={handleClick}/>}
     </Wrapper>
   )
 }

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import  { layoutColors } from '../../styles/colors';
+import { Menu } from '../../styles/mixins'
 import { AiOutlineMenu } from 'react-icons/ai';
 
 export const Wrapper = styled.div`
@@ -23,26 +24,6 @@ export const Wrapper = styled.div`
   }
 `;
 
-
-export const Logo = styled.a`
-  color: ${layoutColors.logo};
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2.4rem;
-  transition: all .4s ease;
-
-  &:hover {
-    color: ${layoutColors.logoHover};
-    cursor: pointer;
-  }
-`;
-
 export const BurgerMenu = styled(AiOutlineMenu)`
-  color: ${layoutColors.highlight};
-  font-size: 3.2rem;
-  transition: all .4s ease;
-
-  &:hover {
-    color: ${layoutColors.highlightHover};
-    cursor: pointer;
-  }
+  ${Menu};
 `;

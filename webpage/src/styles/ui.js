@@ -16,3 +16,15 @@ export const ParagraphMedium = styled.p`
   line-height: 30px;
   text-align: left;
 `;
+
+export const Logo = styled.a`
+  color: ${layoutColors.logo};
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.4rem;
+  transition: all .4s ease;
+
+  &:hover {
+    color: ${layoutColors.logoHover};
+    cursor: pointer;
+  }
+`

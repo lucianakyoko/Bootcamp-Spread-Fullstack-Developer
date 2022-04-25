@@ -20,3 +20,15 @@ export const FlexColCenter = () => {
   `;
 };
 
+export const Menu = () => {
+  return `
+    color: ${layoutColors.highlight};
+    font-size: 3.2rem;
+    transition: all .4s ease;
+
+    &:hover {
+      color: ${layoutColors.highlightHover};
+      cursor: pointer;
+    }
+  `;
+};
