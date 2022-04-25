@@ -137,3 +137,58 @@
   * IP
   * Classes de redes
   * 127.0.0.1 (localhost)
+
+  ---
+
+  # TCP/ IP, PORTAS, ROTEADORES, SWITCHES E MODEMS
+  ## TCP/ IP:
+  Significa:  Protocolos de comunicação entre computadores em rede
+  * Transmition Control Protocol - Protocolo de Controle de Transmissão.
+  * Internet Protocol - Protocolo de Internet
+
+ O TCP/ IP usa o  Modelo de camadas:
+  * 4 camadas:
+  1 - Física (ex.: Placa de rede)
+  2 - Rede (ex.: Rede)
+  3 - Transporte (ex.: TCP, UDP)
+  4 - Aplicação (ex.: FTP, SMTP, HTTP)
+  
+ ## Diferenças entre TCP x UDP:
+ Ambos são formas de conexão entre dispositivo e internet
+
+ * UDP:
+  * Rápido
+  * Não confiável
+  * Carro do ovo
+  * Livestream
+
+ * TCP:
+  * voltado à conexão
+  * handshake
+  * Integridade, ordem dos dados
+  * Aplicativo de mensagem de texto
+
+## Portas (do inglês "ports"):
+* As 'portinhas' por onde os dados sairão e chegarão:
+  * 20: FTP
+  * 22: SSH
+  * 25: SMTP
+  * 53: DNS
+  * 80: HTTP
+  * 443: HTTPS
+
+## Modem
+Modulator-demodulator
+* É o aparelho de modula e demodula os sinais
+* É o hardware que converte dados em um formato que possa ser transmitido de um computador para o outro e lido por outro
+
+## Roteadores
+* Aparelho que tem como função distribuir internet para um ou mais dispositivos de uma rede.
+* Pode fazer a comunicação entre redes
+* Pode ser "burro"
+
+## Switches
+* Distribui internet para um ou mais dispositivos de uma rede
+* Criado para ser "inteligente"
+
+  
