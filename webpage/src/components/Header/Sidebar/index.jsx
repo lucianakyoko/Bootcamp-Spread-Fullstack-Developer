@@ -1,5 +1,8 @@
 import React from 'react';
-import { Logo } from '../../../styles/ui';
+
+
+import LogoLk from '../../LogoLk';
+
 import {
   Navbar, 
   NavbarTop, 
@@ -10,21 +13,37 @@ import {
 } from './style';
 
 const Sidebar = ({ onClick }) => {
+  const pages = [
+    {
+      id: "link01",
+      title: 'home',
+      link: '/'
+    },
+    {
+      id: "link02",
+      title: 'projetos',
+      link: '/projetos'
+    },
+    {
+      id: "link03",
+      title: 'sobre',
+      link: '/sobre'
+    },
+  ]
   return (
     <Navbar>
       <NavbarTop>
-        <Logo   
-          href='https://lucianakyoko.com'
-          rel="noopener noreferrer" 
-          target="_blank"
-          title="lucianakyoko.com"
-        > LK</Logo>
-        <CloseMenu onClick={onClick}/>
+        <LogoLk />
+        <CloseMenu onClick={onClick} title="Fechar menu"/>
       </NavbarTop>
       <MenuListWrapper>
-        <MenuItem><Link href="#">home</Link></MenuItem>
-        <MenuItem><Link href="#">projetos</Link></MenuItem>
-        <MenuItem><Link href="#">sobre</Link></MenuItem>
+        {pages.map(page => (
+          <MenuItem>
+            <Link key={page.id} onClick={onClick} href={page.link}>
+              {page.title}
+            </Link>
+          </MenuItem>
+        ))}
       </MenuListWrapper>
     </Navbar>
   )

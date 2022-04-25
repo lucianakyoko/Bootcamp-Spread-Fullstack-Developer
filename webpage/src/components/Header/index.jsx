@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Sidebar from './Sidebar';
-import { Logo } from '../../styles/ui';
+import LogoLk from '../LogoLk';
+
 import { Wrapper, BurgerMenu } from './style';
 
 const Header = () => {
@@ -11,12 +12,7 @@ const Header = () => {
 
   return (
     <Wrapper>
-      <Logo 
-        href='https://lucianakyoko.com'
-        rel="noopener noreferrer" 
-        target="_blank"
-        title="lucianakyoko.com"
-      >LK</Logo>
+      <LogoLk />
       <BurgerMenu onClick={handleClick} title='abrir menu'>menu</BurgerMenu>
       {menu && <Sidebar onClick={handleClick}/>}
     </Wrapper>
