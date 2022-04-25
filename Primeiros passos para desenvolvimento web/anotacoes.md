@@ -191,4 +191,42 @@ Modulator-demodulator
 * Distribui internet para um ou mais dispositivos de uma rede
 * Criado para ser "inteligente"
 
-  
+---
+
+# CELULAR, INTERNET E OUTROS DISPOSITIVOS
+## Dados móveis:
+### SMS: 
+*Quanto custa, para uma operadora de telefonia móvel enviar um SMS? Nada.
+* O celular troca, naturalmente, alguns bits com as torres de comunicação
+
+### MMS:
+* Transmissão de mensagens multimídia (audio, vídeo) por meio de uma espécie de conexão de dados primitiva.
+
+### Conexões móveis:
+* 1G (analógico): 10kbps
+* 2G (digital) : GSM - Global System for Mobile Comunication: 97kbps
+* GPRS (General Packet Radio Service) / "2,5G": 32-80kbps - dados + voz
+* EDGE (Enhanced Data Rates for GSM Evolution) / "2,75G: 128-236kbps
+* 3G(7Mbps), 4G(22,1Mbps), 5G(10Gbps)
+
+## Wi-fi:
+* IEEE 802.11: 2,4 GHz, 2Mbps
+* IEEE 802.11a: 5 GHz, 54Mbps
+* IEEE 802.11b: 2,4GHz, 11Mbps(diminuição de interferência)
+* IEEE 802.11g: 2,4GHz, 54Mbps
+* IEEE 802.11n: 2,4 GHz/ 5GHz, 150-600Mbps
+
+## Segurança
+* WEP: chaves de 64bits e de 128bits
+* WPA: chave trocada periodicamente
+* WPA2(AES) (802.11i)
+  * mais segurança
+  * requer mais processamento
+
+## Dispositivos na rede:
+* Impressora
+* Scanner
+* Chromecast
+
+## Bluetooth:
+Faz conexão ponto-a-ponto, ou seja, não depende da internet para funcionar
