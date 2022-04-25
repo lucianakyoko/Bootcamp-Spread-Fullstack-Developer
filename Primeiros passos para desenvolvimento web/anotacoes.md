@@ -1,4 +1,4 @@
-# O QUE É INTERNET
+# AULA 01 - O QUE É INTERNET
 ## História
 * 1969: 
   - EUA 
@@ -111,7 +111,7 @@
 
 ---
 
-# COMO FUNCIONA A INTERNET
+# AULA 02 - COMO FUNCIONA A INTERNET
 ## Redes
 * Backbone:
   * Tradução: Espinha dorsal, Costelas
@@ -140,7 +140,7 @@
 
   ---
 
-  # TCP/ IP, PORTAS, ROTEADORES, SWITCHES E MODEMS
+  # AULA 03 - TCP/ IP, PORTAS, ROTEADORES, SWITCHES E MODEMS
   ## TCP/ IP:
   Significa:  Protocolos de comunicação entre computadores em rede
   * Transmition Control Protocol - Protocolo de Controle de Transmissão.
@@ -193,7 +193,7 @@ Modulator-demodulator
 
 ---
 
-# CELULAR, INTERNET E OUTROS DISPOSITIVOS
+# AULA 04 - CELULAR, INTERNET E OUTROS DISPOSITIVOS
 ## Dados móveis:
 ### SMS: 
 *Quanto custa, para uma operadora de telefonia móvel enviar um SMS? Nada.
@@ -230,3 +230,58 @@ Modulator-demodulator
 
 ## Bluetooth:
 Faz conexão ponto-a-ponto, ou seja, não depende da internet para funcionar
+
+---
+
+# AULA 05 - BROWSER, SITES, APLICATIVOS E WEBSERVER
+## Browser:
+Para acessar um site é precis um programa que interprete as linguagens de programação (LP) e as transforme em algo compreensível por um humano.
+
+* Características do browser:
+  * Sabe identificar várias LP, linguans de marcação e conteúdo multimídia
+  * existem hoje, plug-ins, ou add-ons, que ajudam na navegação
+  * cache e cookies
+
+* Página estática X Página dinâmica:
+  * estática:
+    * Quase não há interação nenhuma com a página
+  * dinâmica:
+    * Mais interação do usuário com a página
+
+## Sites, aplicativos e e-commerce
+  * Site:
+    * Página na internet
+    * Possui diversos propósitos
+    * Podem ser desenvolvidas em diversas LP
+    * D /XHTML (caindo em desuso)
+
+  * Aplicativo:
+    * Um software que é executado no navegador
+    * Um aplicativo celular, muitas vezes, nada mais é do que uma espécie de navegador
+    * Hoje em dia, já quase não existe diferença entre site e aplicativo, e o primeiro está em declínio
+    * Outra diferença terminológica que está sumindo é entre programa/ software e aplicativo
+
+  * E-commerce:
+    * "E", assim como em "e-mail", significa "eletronic"
+    * Comércio eletrônico
+    * Site de compra e venda com sistema de pagamento
+    * O sistema de pagamento pode ser exterior ao site
+    * PicPay, Boleto, PagSeguro, PayPal, Mercado Pago...
+
+## Web-server
+Existem dois tipos:
+* estático
+  - é um servidor físico onde são armazenados arquivos, softwares e/ ou banco de dados
+
+* dinâmico
+  - se refere aos softwares que estão presentes no servidor físico
+  - pode ser para:
+    - armazenar arquivos (file server)
+    - Aplicações (aplication server)
+    - Banco de dados (database)
+    - Tudo junto e misturado
+  - Um site, ou aplicativo precisa estar hospedado em um servidor para poder ser acessado
+  - Os dados de um site precisam estar em um servidor
+  - O banco de dados de um site ou aplicativo precisa estar em um servidor
+
+* Interface disponíveis para fazer requisições e consultas em banco de dados inacessíveis (Correio, Governo)
