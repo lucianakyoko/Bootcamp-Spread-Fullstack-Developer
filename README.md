@@ -16,7 +16,7 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 | --- | --- | --- | --- | ---| --- |
 | Curso - Primeiros passos para desenvolvimento web | [Repositório do curso](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Primeiros%20passos%20para%20desenvolvimento%20web) | [Abrir anotações](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Primeiros%20passos%20para%20desenvolvimento%20web/anotacoes.md) | X | X | Finalizado |
 
- 
+
 
 ---
 
