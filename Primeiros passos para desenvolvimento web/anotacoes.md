@@ -285,3 +285,41 @@ Existem dois tipos:
   - O banco de dados de um site ou aplicativo precisa estar em um servidor
 
 * Interface disponíveis para fazer requisições e consultas em banco de dados inacessíveis (Correio, Governo)
+
+---
+
+# AULA 06 -  O QUE SÃO STACKS
+## Stacks:
+  * Pilhas de tecnologia
+  * Conjunto de softwares necessários e suficientes para executar um aplicativo/ programa
+  * Linguagens de programação
+  * Ambientes e ferramentas de interação como o app/ software
+  * Capacidade e limitaçã de performance
+  * Pontos fortes e tfracos do app/ software
+
+## Importância:
+  * Os líderes de projetos precisam das informações das equipes de desenvolvimento
+  * Os desenvolvedores precisam saber as limitações e capacidades das ferramentas e ambientes que têm disponíveis
+  * Sistemas bancos de dados, linguagens de programação, protocolos de comunicação
+  * Estratégias de negócios
+  * Maturidade
+  * Contratações, Planos de mitigações de riscos, aumento da capacidade, uso dos dados
+
+
+## Definições de Front-End, Back-End e Fullstack
+  * Front-End:
+    * "Parte da frente"
+    * Site, software, aplicativo, web service
+    * Interface, UI, UX
+    * Lógica de programação, HTML, CSS
+    * jQuery, JavaScript, AJAX, PHP, Bootstrap... etc
+
+  * Back-End:
+    * "Parte de trás"
+    * Servidores, banco de dados
+    * "meio-de-campo" entre interface e banco de dados, regras de negócio, validações
+    * MySQL, Oracle, protocolos de comunicação, PHP, Java, Node.js
+    
+  * FullStack:
+    * Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento/ execução de um app/ software
+
