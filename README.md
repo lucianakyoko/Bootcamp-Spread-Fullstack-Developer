@@ -12,8 +12,10 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 ---
 
 ## Módulo II: HTML / CSS
-| Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
-| --- | --- | --- | --- | ---|
+| Curso ou Desafio | Projeto | Anotacoes | Link | Preview | Status
+| --- | --- | --- | --- | ---| --- |
+| Curso - Primeiros passos para desenvolvimento web | [Repositório do curso](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Primeiros%20passos%20para%20desenvolvimento%20web) | [Abrir anotações](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Primeiros%20passos%20para%20desenvolvimento%20web/anotacoes.md) | X | X | Finalizado |
+
  
 
 ---
@@ -25,14 +27,14 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 
 ---
 
-# Módulo IV: ReactJS
+## Módulo IV: ReactJS
 | Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
 | --- | --- | --- | --- | ---|
  
 
 ---
 
-# Módulo V: Banco de Dados
+## Módulo V: Banco de Dados
 | Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
 | --- | --- | --- | --- | ---|
  
