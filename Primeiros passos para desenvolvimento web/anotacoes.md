@@ -323,3 +323,24 @@ Existem dois tipos:
   * FullStack:
     * Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento/ execução de um app/ software
 
+---
+
+# AULA 07 - LPS E TERMOS
+## Principais Linguagens de Programação
+* Principais Linguagens:
+  * HTML
+  * CSS
+  * JavaScript 
+    - jQuery,
+    - AJAX,
+    - ReactJs
+    - ... diversas outras libs
+  * PHP
+  * .NET
+  * ASP
+  * Java
+  * Ruby (on Rails)
+  * Python
+  * Perl
+  * C, C++, C#
+
