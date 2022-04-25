@@ -7,6 +7,12 @@ export const Title = styled.h1`
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  `;
+
+export const Subtitle = styled.h2`
+  color: ${layoutColors.highlight};
+  font-size: 2rem;
+  font-weight: 700;
 `;
 
 export const ParagraphMedium = styled.p`
@@ -17,14 +23,3 @@ export const ParagraphMedium = styled.p`
   text-align: left;
 `;
 
-export const Logo = styled.a`
-  color: ${layoutColors.logo};
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2.4rem;
-  transition: all .4s ease;
-
-  &:hover {
-    color: ${layoutColors.logoHover};
-    cursor: pointer;
-  }
-`
