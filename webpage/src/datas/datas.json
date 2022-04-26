@@ -6,15 +6,15 @@
     "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Logica%20de%20Programacao%20Essencial",
     "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Logica%20de%20Programacao%20Essencial/anotacoes.MD",
     "post": "", 
-    "image": "",
+    "image": "activity01.jpg",
     "tags":[ 
       "curso",
-      "lógica"     
+      "logica"     
     ],
     "description": "Entendendo o que é lógica.",
     "learned": [
       "O que é lógica",
-      "Algoritmos e pseudo códico",
+      "Algoritmos e pseudo código",
       "Fluxograma, variáveis e constantes",
       "Tomadas de decisões e expressões",
       "Estrutura de repetição",
@@ -32,10 +32,10 @@
     "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Introducao%20ao%20Git%20e%20Github",
     "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Introducao%20ao%20Git%20e%20Github/anotacoes.md",
     "post": "", 
-    "image": "",
+    "image": "activity02",
     "tags": [
       "curso",
-      "Git GitHub"
+      "gitgithub"
     ],
     "description": "Entendendo o que é Git e sua importância",
     "learned": [
@@ -59,10 +59,10 @@
     "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
     "post": "", 
     "image": "activity03",
-    "tags": {
-      "tag1": "desafio",
-      "tag2": "Git GitHub"
-    },
+    "tags": [
+      "desafio",
+      "gitgithub"
+    ],
     "description": "Reforce seu conhecimento em Git com um desafio de projeto totalmente prático, onde você executará todos os passos para a criação, atualização e sincronização de um repositório no GitHub. Para isso, tenha em mente todas as dicas e direcionamen tos apresentados pelo expert nas aulas. Dessa forma, você poderá compartilhar suas anotações e exercícios em seu próprio repositório. Criando assim, o primeiro (de muitos) projetos do seu portfólio.",
     "learned": [
       "Criar um novo repositório no Github",
@@ -75,14 +75,14 @@
     "id": "bootcamp04",
     "modulo": "Módulo II - HTML/ CSS",
     "activity": "Curso Primeiros passos para desenvolvimento web",
-    "github": "",
-    "page": "",
-    "post": "", 
-    "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": "html css"
-    },
+    "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Primeiros%20passos%20para%20desenvolvimento%20web",
+    "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Primeiros%20passos%20para%20desenvolvimento%20web/anotacoes.md",
+    "post": "https://www.dio.me/certificate/C417AD61/share", 
+    "image": "activity04.jpg",
+    "tags": [
+      "curso",
+      "htmlcss"
+    ],
     "description": "Introdução ao tema",
     "learned":[
       "O que é internet",
@@ -95,20 +95,20 @@
       "Definição de Front-end, Back-end e Fullstack",
       "LPs e termos"
     ],
-    "certificate":""
+    "certificate":"https://www.dio.me/certificate/C417AD61/share"
   },
   {
     "id": "bootcamp05",
     "modulo": "Módulo II - HTML/ CSS",
     "activity": "Curso Introdução a criação de websites com HTML5 e CSS3",
-    "github": "",
+    "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/ICWHC%20-%20Introducao%20a%20criacao%20de%20websites%20com%20HTML%20e%20CSS",
     "page": "",
     "post": "", 
     "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": "html css"
-    },
+    "tags": [
+      "curso",
+      "htmlcss"
+    ],
     "description": "Estrutura básica",
     "learned":[
       "Estrutura básica",
@@ -120,65 +120,6 @@
       "Dimensões e alinhamentos"
     ],
     "certificate":"https://www.dio.me/certificate/341637E6/share"
-  },
-  {
-    "id": "bootcamp06",
-    "modulo": "Módulo II - HTML/ CSS",
-    "activity": "Curso Posicionando elementos com Flexbox em CSS",
-    "github": "",
-    "page": "",
-    "post": "", 
-    "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": "html css"
-    },
-    "description": "Fundamentos do Flexbox",
-    "learned":[
-      "display flex",
-      "flex direction",
-      "flex wrap",
-      "flex flow",
-      "justify content",
-      "align items",
-      "align content",
-      "flex grow",
-      "flex basis",
-      "flex shrink",
-      "flex, order, align self"
-    ],
-    "certificate":""
-  },
-  {
-    "id": "bootcamp07",
-    "modulo": "Módulo II - HTML/ CSS",
-    "activity": "Primeiros passos para desenvolvimento web",
-    "github": "",
-    "page": "",
-    "post": "", 
-    "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": "html css"
-    },
-    "description": "Nesse projeto você terá o desafio de reconstruir a página de login do Instagram. Para isso, é recomendado o uso de CSS com Flexbox, uma das abordagens de posicionamento de elementos mais utilizadas quando se trata de responsividade. Além disso, a expert disponibiliza todo o material necessário em seu GitHub para que você possa utilizá-lo como referência para a sua solução.",
-    "learned":[],
-    "certificate":"https://www.dio.me/certificate/6094510D/share"
-  },
-  {
-    "id": "bootcamp08",
-    "modulo": "Módulo III - JavaScript",
-    "activity": "Primeiros passos para desenvolvimento web",
-    "github": "",
-    "page": "",
-    "post": "", 
-    "image": "",
-    "tags": {
-      "tag1": "curso",
-      "tag2": "html css"
-    },
-    "description": "",
-    "learned":[],
-    "certificate":""
   }
 ]
+
