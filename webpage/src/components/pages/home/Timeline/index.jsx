@@ -10,7 +10,7 @@ import {
 } from './style';
 
 import { RiGithubFill, RiLinkM } from 'react-icons/ri';
-import activities from '../../../datas/datas.json';
+import activities from '../../../../datas/datas.json';
 
 
 const Timeline = () => {
