@@ -46,7 +46,7 @@ export const ActivityTitle = styled.h2`
 
 export const ActivitySubtitle = styled.h3`
   color: ${layoutColors.text};
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 500;
 `;
 
