@@ -12,19 +12,19 @@ E agora podemos ver como é a estrutura básica de um arquivo HTML.
 
 A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
 
-* <html>
+<html>
 
 A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.
 
-* <head>
+<head>
 
 A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag title.
 
-* <body>
+<body>
 
 E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
 
-## Prática
+### Prática
 Como exercício para esse curso iremos construir um site pessoal, e precisamos começar com a estrutura básica que acabamos de ver.
 
 Vamos criar um arquivo index.html e adicionar o doctype e os elementos html, head e body.
@@ -33,25 +33,10 @@ Depois adicionaremos os elementos meta e title, no primeiro adicionamos o atribu
 
 E por último escreveremos nosso nome dentro do elemento body apenas para enxergarmos isso no navegador.
 
-
-Os últimos elementos que veremos neste módulo são os relacionados a listas: <ul>, <ol> e <li>.
-
-Listas servem para agrupar uma coleção de itens, como uma lista de ingredientes ou, como será no nosso caso, uma lista com contatos.
-
-O elemento ul cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados.
-
-O <ol> serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.
-
-E o elemento li é um item dentro de uma dessas listas. Um <li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
-
-### Prática
-Adicionaremos uma lista de contatos ao rodapé da nossa página, e para isso usaremos também o elemento a que vimos anteriormente.
-
-Crie um elemento ul e dentro dele adicione um <li> com um elemento a, no atributo href adicione o link de alguma rede social que você mantenha e, no conteúdo da âncora coloque o nome dessa rede.
-
 ---
-# Aula 02 - Entendendo o que é semântica
-## Semântica
+
+## Aula 02 - Entendendo o que é semântica
+### Semântica
 Durante muitos anos o elemento padrão no HTML era a div, construíamos nosso conteúdo todo baseado nela, e assim nascia a sopa de divs.
 
 Mas em 2014 saiu a quinta versão do HTML, e com ela vieram vários mudanças importantes, como performance e acessibilidade, mas nesse curso introdutório vamos focar na semântica.
@@ -122,7 +107,7 @@ Criarei um hyperlink para meu perfil no LinkedIn: adicione o hyperlink no atribu
 
 ---
 
-# Aula 04 - Imagens
+## Aula 04 - Imagens
 A web também é feita de imagens e para representá-las temos o elemento <img>, ele é um daqueles elementos sem tag de fechamento.
 
 O elemento img é bem simples, contendo apenas 2 atributos próprios, o src e o alt.
@@ -131,7 +116,7 @@ O src é obrigatório e guarda o caminho para a imagem que você quer mostrar na
 
 O alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
 
-## Prática
+### Prática
 Vamos adicionar uma imagem ao cabeçalho da página e uma imagem a postagem.
 
 Primeiro vamos colocar as imagens na pasta do nosso projeto. Para a imagem do cabeçalho eu escolhi uma foto minha com 100 pixels de largura e 100 pixels de altura e para a imagem da postagem eu procurei por html code no site Unsplash, escolhi uma das imagens e deixei ela com 960 pixels de largura por 322 pixels de altura.
@@ -142,7 +127,7 @@ E dentro do <header> do <article> vamos fazer a mesma coisa, mas agora depois do
 
 ---
 
-# Aula 05 - Listas
+## Aula 05 - Listas
 Os últimos elementos que veremos neste módulo são os relacionados a listas: <ul>, <ol> e <li>.
 
 Listas servem para agrupar uma coleção de itens, como uma lista de ingredientes ou, como será no nosso caso, uma lista com contatos.
@@ -153,7 +138,41 @@ O <ol> serve para criar lista ordenadas, nessas a ordem importa, portanto elas s
 
 E o elemento li é um item dentro de uma dessas listas. Um <li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
 
-## Prática
+### Prática
 Adicionaremos uma lista de contatos ao rodapé da nossa página, e para isso usaremos também o elemento a que vimos anteriormente.
 
 Crie um elemento ul e dentro dele adicione um <li> com um elemento a, no atributo href adicione o link de alguma rede social que você mantenha e, no conteúdo da âncora coloque o nome dessa rede.
+
+---
+
+
+# CSS
+## Aula 06 - Introdução e conceitos básicos do CSS3
+### Box-model
+Quando estamos criando o layout de um site o navegador representa cada elemento HTML  como uma caixa retangular, isso é o box-model. E com CSS nós alteramos a aparência dessa caixa (largura, altura, cor de fundo, etc.). Essa caixa é composta por 4 áreas: o conteúdo, o padding, a borda e a margem.
+
+As margens (margin) são espaçamentos entre elementos;
+As bordas (border) ;
+O padding é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
+O conteúdo (content) é o que o seu bloco representa, um texto, uma imagem, um vídeo;
+ 
+
+### Exercício
+Para enxergamos o box-model vamos adicionar cores e bordas a alguns elementos.
+
+Primeiro adicionaremos uma cor de fundo para a visualização ficar mais fácil, usaremos a propriedade background com o valor #fcfcfc no elemento body.
+
+Depois vamos adicionar uma classe ao <article>, pode ser .post, e então vamos colocar a cor branca de fundo com a propriedade background e o valor #FFF. Agora conseguimos enxergar o content do box-model.
+
+Vamos adicionar um padding de 10 pixels neste mesmo article. Perceberam o espaçamento que surgiu em volta do nosso conteúdo?
+
+Agora adicionamos um borda mais escura a ele com a propriedade border. Vou falar mais detalhadamente sobre border mais a frente, mas por enquanto vamos deixar essa borda com 3 pixels de largura, o contorno sólido e a cor azul.
+
+E por último vamos adicionar uma margem do lado de fora do post com a propriedade margin e o valor 10 pixels.
+
+E agora inspecionando o nosso elemento conseguimos todas aquelas camadas citadas antes: o conteúdo em azul, o padding em verde, as bordas em marrom e as margens em laranja.
+
+E já que começamos a falar sobre bordas e cor de fundo, no próximo vídeo vamos nos aprofundar nessas propriedades.
+
+ 
+
