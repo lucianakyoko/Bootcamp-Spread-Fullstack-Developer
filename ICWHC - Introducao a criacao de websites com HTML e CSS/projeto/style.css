@@ -1,9 +1,20 @@
 body{
   background-color: #f7f7f7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .profile_image {
   border-radius: 50%;
+}
+
+#title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #505050;
 }
 
 #title,
@@ -35,5 +46,5 @@ body{
 .post_content {
   margin: 0;
   margin-bottom: 15px;
-
+  text-transform: capitalize;
 }
