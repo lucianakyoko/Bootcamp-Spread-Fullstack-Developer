@@ -12,8 +12,8 @@ function App() {
     <Wrapper>
       <GlobalStyles />
       <Header />
-      {/* <Home /> */}
-      <Projects />
+      <Home />
+      {/* <Projects /> */}
       <Footer />
     </Wrapper>
   );

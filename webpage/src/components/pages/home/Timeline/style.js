@@ -14,6 +14,7 @@ export const ActiviesWrapper = styled.ul`
 export const ActivityWrapper = styled.li`
   position: relative;
   transition: all .4s ease;
+  padding: 0.8rem;
 
   &::before {
     content: "";
@@ -49,28 +50,3 @@ export const ActivitySubtitle = styled.h3`
   font-weight: 500;
 `;
 
-export const LinksWrapper = styled.div`
-  width: 100%;
-  padding-top: 1.2rem;
-
-  display: flex;
-  align-items: center;
-  gap: 2.4rem;
-`;
-
-export const Link = styled.a`
-  color: ${layoutColors.highlight};
-  font-size: 1.6rem;
-  font-weight: 400;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: .4rem;
-
-  transition: all .4s ease;
-
-  &:hover {
-    color: ${layoutColors.highlightHover};
-  }
-`
