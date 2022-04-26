@@ -120,6 +120,20 @@
       "Dimensões e alinhamentos"
     ],
     "certificate":"https://www.dio.me/certificate/341637E6/share"
-  }
-]
-
+  },
+  {
+    "id": "bootcamp06",
+    "modulo": "Módulo II - HTML/ CSS",
+    "activity": "Curso Posicionando elementos com Flexbox e CSS",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "",
+    "tags": [
+      "curso",
+      "htmlcss"
+    ],
+    "description": "Proposta de projeto final",
+    "learned":[],
+    "certificate":""
+  
