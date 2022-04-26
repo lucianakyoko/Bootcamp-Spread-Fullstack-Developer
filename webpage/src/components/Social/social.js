@@ -3,7 +3,7 @@ import {BsLinkedin, BsGithub} from 'react-icons/bs';
 const social = [
   {
     "id":"link01",
-    "site": "LinkedIn",
+    "site": "Webpage",
     "link": "https://lucianakyoko.com",
     "icon": "LK"
   },
