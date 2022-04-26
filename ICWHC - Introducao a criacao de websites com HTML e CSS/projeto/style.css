@@ -48,3 +48,12 @@ a {
   margin-bottom: 15px;
   text-transform: capitalize;
 }
+
+.contact_list {
+  list-style: none;
+  padding-left:15px;
+}
+
+.contact_list li a {
+  color: brown;
+}
