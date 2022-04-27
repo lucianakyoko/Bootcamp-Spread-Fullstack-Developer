@@ -51,8 +51,19 @@
           flex-direction: column;
           background-color: thistle;
         }
+
+        .central {
+          height: 400px;
+          justify-content: center;
+        }
+
+        .central .item {
+          flex: 0;
+          padding: 20px;
+        }
       </style>
     </head>
+
     <body>
       <h1>Row</h1>
       <p>center:</p>
@@ -125,6 +136,12 @@
         <div class="item">Lorem ipsum dolor sit ametdolor sit amet.</div>
         <div class="item">Lorem ipsum dolor sit.</div>
         <div class="item">3</div>
+      </section>
+
+      <p>Alinhamento central</p>
+      <section class="container central center">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusantium eligendi vitae, minima maiores 
+        </div>
       </section>
     </body>
   </html>
