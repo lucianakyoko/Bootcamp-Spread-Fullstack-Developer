@@ -51,3 +51,16 @@ Por padrão eles não quebram linhas, isso faz com que os flex itens sejam compa
 ## Flex Flow
 É um atalho para as propriedades flex-direction e flex-wrap.
 Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
+
+## Flex Content
+Essa propriedade vai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles.
+
+Obs.: Caso seus itens estejam ocupando 100% de todo o container, ela não se aplica.
+
+Variações:
+* flex-start: início do container
+* flex-end: final do container
+* center: traz os elementos ao centro do container
+* space-betwwen: cria um espaçamento igual entre os elementos
+* space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
+* 
