@@ -47,3 +47,7 @@ Por padrão eles não quebram linhas, isso faz com que os flex itens sejam compa
 * nowrap: é o padrão, não permite a quebra de linha
 * wrap: permite a quebra de linha assim que um dos flex items não puder mais ser compactado
 * wrap-reverse: permite a quebra de linha assim que um dos flex não puder mais ser compactado, porém na direção contrária da linha, acima.
+
+## Flex Flow
+É um atalho para as propriedades flex-direction e flex-wrap.
+Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
