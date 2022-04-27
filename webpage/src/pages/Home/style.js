@@ -1,12 +1,17 @@
 import styled from "styled-components";
 import { layoutColors } from "../../styles/colors";
 
-export const PageWrapper = styled.main`
-  padding: 2.4rem;
+export const PageWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.8rem;
 `;
 
 export const SocialBox = styled.div`
-  padding: 4.8rem 2.4rem;
+  padding: 4rem 2.4rem;
+  background-color: ${layoutColors.tertiary};
+  border-radius: 8px;
 `;
 
 export const Hero = styled.div`

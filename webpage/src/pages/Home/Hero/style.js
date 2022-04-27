@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { layoutColors } from "../../../styles/colors";
 
 export const Container = styled.div`
   position: relative;

@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   overflow: hidden;
   position: relative;
 
+
   &::before {
     content: "";
     width: 360px;
@@ -34,5 +35,9 @@ export const Wrapper = styled.div`
     z-index: -1;
   }
 
+  main {
+    padding: 2.4rem;
+    margin-top: 8rem;
+  }
 `;
 
