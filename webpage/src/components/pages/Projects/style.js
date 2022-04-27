@@ -4,6 +4,16 @@ import { layoutColors } from "../../../styles/colors";
 export const Container = styled.div`
   width: 100%;
   padding: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+
+  h3 {
+    color: ${layoutColors.text};
+    font-size: 1.4rem;
+  }
 `
 
 export const Header = styled.header`
