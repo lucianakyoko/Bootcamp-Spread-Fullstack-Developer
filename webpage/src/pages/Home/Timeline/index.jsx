@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title } from '../../../../styles/ui';
+import { Title } from '../../../styles/ui';
 import {
   ActiviesWrapper, 
   ActivityWrapper, 
@@ -7,7 +7,7 @@ import {
   ActivitySubtitle,
 } from './style';
 
-import activities from '../../../../datas/datas.json';
+import activities from '../../../datas/datas.json';
 
 
 const Timeline = () => {

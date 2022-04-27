@@ -1,11 +1,11 @@
 import React from 'react';
-import Hero from './Hero';
+import Hero from '../Home/Hero';
 
-import Social from '../../Social';
-import Timeline from './Timeline';
+import Social from '../../components/Social';
+import Timeline from '../Home/Timeline';
 
 import { PageWrapper, SocialBox} from './style';
-import { Title } from '../../../styles/ui';
+import { Title } from '../../styles/ui';
 
 const Home = () => {
   return (

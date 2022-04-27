@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Subtitle } from '../../../styles/ui';
-import Filters from './Filter';
-import ProjectList from './ProjetcList';
+import { Subtitle } from '../../styles/ui';
+import Filters from '../Projects/Filter';
+import ProjectList from '../Projects/ProjetcList';
 import { Container, Header } from './style';
 
 const Projects = () => {

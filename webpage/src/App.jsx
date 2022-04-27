@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Home from "./components/pages/home";
-import Projects from "./components/pages/Projects";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 import { Wrapper } from "./styles/app";
 import GlobalStyles from "./styles/GlobalStyles";

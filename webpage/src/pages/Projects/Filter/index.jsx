@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getTags } from '../../../../datas/tags';
+import { getTags } from '../../../datas/tags';
 
 import { TagWrapper ,TagItem } from './style'
 

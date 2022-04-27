@@ -1,7 +1,7 @@
 import React from 'react';
-import LogoBootcamp from '../../../../assets/images/bootcampLogo.png';
-import LogoDio from '../../../../assets/images/dioLogo.png';
-import { Title, ParagraphMedium } from '../../../../styles/ui';
+import LogoBootcamp from '../../../assets/images/bootcampLogo.png';
+import LogoDio from '../../../assets/images/dioLogo.png';
+import { Title, ParagraphMedium } from '../../../styles/ui';
 import { Container, ImageWrapper, TitleWrapper, BootcampLogoImg, DioLogoImg } from './style';
 
 const Hero = () => {

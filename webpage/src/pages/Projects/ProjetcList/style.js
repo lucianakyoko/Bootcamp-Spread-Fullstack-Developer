@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { layoutColors } from "../../../../styles/colors";
+import { layoutColors } from "../../../styles/colors";
 
 export const ProjectsWapper = styled.ul`
   width: 100%;

@@ -1,7 +1,6 @@
-import { getAllByLabelText } from '@testing-library/react';
 import React from 'react';
-import projectlist from '../../../../datas/datas.json';
-import { getTags } from '../../../../datas/tags';
+import projectlist from '../../../datas/datas.json';
+import { getTags } from '../../../datas/tags';
 
 import { 
   ProjectsWapper, 
