@@ -106,3 +106,6 @@ Valores possíveis:
 * auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
 * px, %, em ...: são valores exatos previamente definidos
 * 0 (zero): terá relação com a definição do flex-grow
+
+## Flex Shrink
+É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
