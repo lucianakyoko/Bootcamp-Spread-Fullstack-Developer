@@ -10,7 +10,7 @@ export const Navbar = styled.nav`
   position: absolute;
   top: 0%;
   left: 0;
-  z-index: 1;
+  z-index: 3;
   background-color: ${layoutColors.primary};
 
   animation: openSidebar .4s;
