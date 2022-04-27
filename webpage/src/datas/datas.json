@@ -6,7 +6,7 @@
     "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Logica%20de%20Programacao%20Essencial",
     "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Logica%20de%20Programacao%20Essencial/anotacoes.MD",
     "post": "", 
-    "image": "activity01.jpg",
+    "image": "activity01",
     "tags":[ 
       "curso",
       "logica"     
@@ -54,7 +54,7 @@
   {
     "id": "bootcamp03",
     "modulo": "Módulo I - Conteúdo de abertura",
-    "activity": "Desafio Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu",
+    "activity": "Desafio Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso",
     "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
     "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
     "post": "", 
@@ -78,7 +78,7 @@
     "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Primeiros%20passos%20para%20desenvolvimento%20web",
     "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Primeiros%20passos%20para%20desenvolvimento%20web/anotacoes.md",
     "post": "https://www.dio.me/certificate/C417AD61/share", 
-    "image": "activity04.jpg",
+    "image": "activity04",
     "tags": [
       "curso",
       "htmlcss"
@@ -104,7 +104,7 @@
     "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/ICWHC%20-%20Introducao%20a%20criacao%20de%20websites%20com%20HTML%20e%20CSS",
     "page": "https://heroic-cannoli-9ffcad.netlify.app/",
     "post": "", 
-    "image": "activity04.jpg",
+    "image": "activity05",
     "tags": [
       "curso",
       "htmlcss"
