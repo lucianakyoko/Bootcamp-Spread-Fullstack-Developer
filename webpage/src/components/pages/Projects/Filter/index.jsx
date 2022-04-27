@@ -5,7 +5,6 @@ import { TagWrapper ,TagItem } from './style'
 
 const Filters = ({ filter, setFilter }) => {
   const tags = getTags();
-  const [active, setActive] = useState(false);
 
   function selectFilter(option) {
     setFilter(option.id);
@@ -28,6 +27,7 @@ const Filters = ({ filter, setFilter }) => {
             
           >
             {tag.label}
+            
           </TagItem>
         ))}
       </TagWrapper>
