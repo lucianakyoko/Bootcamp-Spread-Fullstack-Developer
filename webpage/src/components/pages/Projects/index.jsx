@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Subtitle } from '../../../styles/ui';
 import Filters from './Filter';
+import ProjectList from './ProjetcList';
 import { Container, Header } from './style';
 
 const Projects = () => {
@@ -14,6 +15,8 @@ const Projects = () => {
       </Header>
 
       <Filters filter={filter} setFilter={setFilter}/>
+
+      <ProjectList />
     </Container>
   )
 }
