@@ -31,7 +31,7 @@ Propriedades relacionadas:
 ## Display Flex
 Torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, tornam-se em flex items.
 
-## Flex-direction
+## Flex Direction
 É a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex items são colocados no flex container.
 
 Eixos:
@@ -40,4 +40,10 @@ Eixos:
 * column: ordenação de cima para baixo em coluna única
 * column-reverse: ordenação oposta (de baixo para cima), também em coluna única
 
+## Flex Wrap
+É a propriedade que define se os items devem ou não quebrar a linha.
+Por padrão eles não quebram linhas, isso faz com que os flex itens sejam compactados além do limite do conteúdo
 
+* nowrap: é o padrão, não permite a quebra de linha
+* wrap: permite a quebra de linha assim que um dos flex items não puder mais ser compactado
+* wrap-reverse: permite a quebra de linha assim que um dos flex não puder mais ser compactado, porém na direção contrária da linha, acima.
