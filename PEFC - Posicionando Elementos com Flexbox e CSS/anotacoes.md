@@ -31,4 +31,13 @@ Propriedades relacionadas:
 ## Display Flex
 Torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, tornam-se em flex items.
 
+## Flex-direction
+É a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex items são colocados no flex container.
+
+Eixos:
+* row(padrão): direção do texto, esquerda para direita
+* row-reverse: sentido oposto, da direita para esquerda
+* column: ordenação de cima para baixo em coluna única
+* column-reverse: ordenação oposta (de baixo para cima), também em coluna única
+
 
