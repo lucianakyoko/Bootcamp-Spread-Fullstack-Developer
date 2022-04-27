@@ -27,3 +27,8 @@ Propriedades relacionadas:
 
 --- 
 
+# AULA 2 - FUNDAMENTOS DO FLEXBOX - FLEX CONTAINER
+## Display Flex
+Torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, tornam-se em flex items.
+
+
