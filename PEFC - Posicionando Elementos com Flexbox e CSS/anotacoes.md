@@ -90,3 +90,11 @@ Tipos de alinhamento:
 * flex-end: alinhamento dos itens no final
 * space-between: cria um espaçamento igual entre os elementos
 * space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
+
+---
+
+# AULA 3 - FUNDAMENTOS DO FLEXBOX - FLEX ITEMS
+## Flex Grow
+Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos.
+
+Obs.: Não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container
