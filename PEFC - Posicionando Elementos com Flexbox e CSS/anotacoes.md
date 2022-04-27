@@ -75,3 +75,18 @@ Tipos de alinhamento:
 * flex-start: alinhamento dos itens no inicio
 * flex-end: alinhamento dos itens ao final
 * baseline: alinhamento de acordo com a linha base da tipografia dos itens
+
+## Align Content
+É a propriedade resposnável por tratar o alinhamento das linhas do container em relação ao eixo vertical do container
+
+Precisamos que: 
+* O container utilize quebra de linhas
+* A altura do container seja maior que a soma das linhas dos itens
+
+Tipos de alinhamento:
+* center: alinhamento central dos itens ao centro
+* stretch: é o padrão e os flex itens crescem igualmente
+* flex-start: alinhamento dos itens no início
+* flex-end: alinhamento dos itens no final
+* space-between: cria um espaçamento igual entre os elementos
+* space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
