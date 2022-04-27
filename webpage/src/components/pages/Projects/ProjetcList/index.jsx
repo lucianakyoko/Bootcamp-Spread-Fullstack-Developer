@@ -30,7 +30,7 @@ const ProjectList = () => {
     <ProjectsWapper>
       {projectlist.map(project => (
         <ProjectItemWrapper key={project.id}>
-          <img src={`./images/${project.image}.jpg`} alt="projeto 1" />
+          <img src={`./images/${project.image}.jpg`} alt={`Screenshot projeto ${project.activity}`} />
           <ProjectInfoWrapper>
             <h3>{project.activity}</h3>
             <TagWrapper>
