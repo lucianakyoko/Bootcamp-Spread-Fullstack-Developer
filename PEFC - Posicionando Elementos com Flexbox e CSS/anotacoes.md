@@ -115,3 +115,14 @@ Esta propriedade é um atalho ou abreviação de escrita para as propriedades: g
 
 ## Order
 Esta propriedade irá lidar diretamente com a ordenação dos itens
+
+## Align Self
+Esta propriedade estabelece o alinhamento de modo individual sobre um determinado item.
+
+Valores possíveis:
+* auto: valor default, irá respeitar a definição de align-items do container
+* flex-start: ao iniciodo container
+* flex-end: ao final do container
+* center: relativo ao centro de acordo com o eixo
+* stretch: ocupa todo os espaço relativo
+* baseline: utiliza a linha base da tipografia
