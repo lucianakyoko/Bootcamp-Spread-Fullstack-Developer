@@ -151,6 +151,26 @@
       "Align self"
     ],
     "certificate":"https://www.dio.me/certificate/4A1A3BBA/share"
+  },
+  {
+    "id": "bootcamp07",
+    "modulo": "Módulo II - HTML/ CSS",
+    "activity": "Desafio - Recriando a página inicial do Instagram",
+    "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/RPII%20-%20Recriando%20a%20Pagina%20Inicial%20do%20Instagram",
+    "page": "https://brilliant-cheesecake-c4dd3b.netlify.app/",
+    "post": "", 
+    "image": "activity07",
+    "tags": [
+      "desafio",
+      "htmlcss"
+    ],
+    "description": "O desafio de reconstruir a página de login do Instagram",
+    "learned":[
+      "Uso de flexbox",
+      "Posicionamento de elementos",
+      "Responsividade"
+    ],
+    "certificate":"https://www.dio.me/certificate/6094510D/share"
   }
 ]
 
