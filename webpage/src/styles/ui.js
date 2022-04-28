@@ -15,6 +15,12 @@ export const Subtitle = styled.h2`
   font-weight: 700;
 `;
 
+export const SubtitleSmall = styled.h3`
+  color: ${layoutColors.highlight};
+  font-size: 1.8rem;
+  font-weight: 600;
+`;
+
 export const ParagraphMedium = styled.p`
   color: ${layoutColors.text};
   font-size: 1.8rem;
