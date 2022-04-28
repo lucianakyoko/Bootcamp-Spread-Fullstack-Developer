@@ -109,3 +109,6 @@ Valores possíveis:
 
 ## Flex Shrink
 É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+
+## Flex
+Esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis
