@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
+import ProjectFull from "./pages/ProjectFull";
 import Projects from "./pages/Projects";
 
 import { Wrapper } from "./styles/app";
@@ -12,8 +13,11 @@ function App() {
     <Wrapper>
       <GlobalStyles />
       <Header />
-      {/* <Home /> */}
-      <Projects />
+      <main>
+        {/* <Home /> */}
+        {/* <Projects /> */}
+        <ProjectFull />
+      </main>
       <Footer />
     </Wrapper>
   );
