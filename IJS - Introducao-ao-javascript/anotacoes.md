@@ -17,3 +17,15 @@
 * Games
 * Internet of Things
 * APIS
+
+# AULA 02 - RECURSOS BÁSICOS DA LINGUAGEM
+  # comentários
+
+  * comenta uma única linha:
+  // 
+  
+  * comenta várias linhas:
+  /*
+    seu código
+    aqui
+  */
