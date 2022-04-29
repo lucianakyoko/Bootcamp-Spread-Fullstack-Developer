@@ -23,8 +23,9 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 ---
 
 ## Módulo III: JavaScript
-| Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
-| --- | --- | --- | --- | ---|
+| Curso ou Desafio | Repositorio do Curso | Anotacoes | Repositorio do Projeto | Link (live preview)| Preview | Status |
+| --- | --- | --- | --- | ---| --- | --- |
+| Curso - Introdução ao JavaScript | [Acessar Repositorio](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/IJS%20-%20Introducao-ao-javascript) | [Abrir anotações](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/IJS%20-%20Introducao-ao-javascript/anotacoes.md) | --- | --- | --- | Em andamento |
  
 
 ---
