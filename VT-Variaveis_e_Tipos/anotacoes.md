@@ -1,6 +1,6 @@
 # VARIÁVEIS E TIPOS
 ## Variáveis:
-Atribuição de valores:
+### Aula 01 - Atribuição de valores:
 * Original Varible as String (some awesome var)
 * Camel Case (someAwesomeVar)
 * SnakeCase (some_awesome_var)
@@ -52,12 +52,12 @@ numberOne = 1;
 console.log(numberOne + 2); //3
 ```
 
-## Constantes
+#### Constantes
 * Declarada em SNAKE_UPPER_CASE
 * Escopo de bloco
 * Não faz hoisting
 
-## let, var e const
+#### let, var e const
 
 | --- | var | const | let |
 | --- | --- | --- | --- |
@@ -65,3 +65,56 @@ console.log(numberOne + 2); //3
 | redeclarar | sim | não |  não |
 | reatribuir | sim | não | sim |
 | hoisting | sim | não | não |
+
+
+### Tipos:
+#### Estrutura de dados
+JavaScript é uma linguagem de tipagem dinâmica.
+Isso significa que, antes de declarar um valor, não se especifica o tipo desta variavel
+
+Os tipos primitivos não possuem métodos guardados dentro deles:
+* numbers
+* strings
+* boolean
+* null
+* undefined
+
+Não primitivos:
+* objects
+* arrays
+
+#### Strings
+* Comumente utilizada para textos
+* Valores declarados entre aspas ou crases
+
+Métodos importantes:
+* Concatenação
+* Propriedade length
+* Iterabilidade
+* Formatação
+
+#### Numbers
+* Numeros inteiros e decimais
+* É declarado sem aspas
+
+#### Booleans
+* true
+* false
+
+#### Arrays
+* Lista iterável de elementos
+
+#### Objetos
+* estrutura do tipo chave e valor
+
+#### Empty, undefined e null
+* retorna como false
+* empty = A variável foi declarada e o valor da variável é:
+  * numero 0
+  * string vazia = ''
+  * array vazia = []
+  * objeto vazio = {}
+
+* null = quando se deseja, propositalmente, que o valor não exista
+
+* undefined = valor indefinido
