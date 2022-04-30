@@ -240,6 +240,22 @@
       "Empty, undefined e null"
     ],
     "certificate":"https://www.dio.me/certificate/9DF9258C/share"
+  },
+  {
+    "id": "bootcamp11",
+    "modulo": "Módulo III - JavaScript",
+    "activity": "Curso - Funções",
+    "github": "",
+    "page": "",
+    "post": "", 
+    "image": "activity11",
+    "tags": [
+      "curso",
+      "javascript"
+    ],
+    "description": "Sobre Funções no JavaScript",
+    "learned":[],
+    "certificate":""
   }
 ]
 
