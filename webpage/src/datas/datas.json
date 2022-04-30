@@ -219,8 +219,8 @@
     "id": "bootcamp10",
     "modulo": "Módulo III - JavaScript",
     "activity": "Curso - Variáveis e Tipos",
-    "github": "",
-    "page": "",
+    "github": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/VT-Variaveis_e_Tipos",
+    "page": "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/VT-Variaveis_e_Tipos/praticas",
     "post": "", 
     "image": "activity10",
     "tags": [
@@ -228,7 +228,17 @@
       "javascript"
     ],
     "description": "Sobre variáveis e tipos no JavaScript",
-    "learned":[],
+    "learned":[
+      "Variáveis, constantes",
+      "const, let, var",
+      "estrutura de dados",
+      "Strings",
+      "Numbers",
+      "Booleans",
+      "Arrays",
+      "Objects",
+      "Empty, undefined e null"
+    ],
     "certificate":""
   }
 ]
