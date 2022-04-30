@@ -33,7 +33,7 @@ const ProjectList = () => {
           <ProjectInfoWrapper>
             <h3>{project.activity}</h3>
             <TagWrapper>
-              <Tag color={'red'}>
+              <Tag color={getLabelColor(project.tags[0])}>
                 {getLabel(project.tags[0])}
               </Tag>
               <Tag color={getLabelColor(project.tags[1])}>
