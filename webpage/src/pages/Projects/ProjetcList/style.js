@@ -5,10 +5,9 @@ export const ProjectsWapper = styled.ul`
   width: 100%;
   
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   gap: 2.4rem;
 `;
 
