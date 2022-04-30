@@ -26,8 +26,8 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 | Curso ou Desafio | Repositorio do Curso | Anotacoes | Link | Preview | Status |
 | --- | --- | --- | --- | ---| --- |
 | Curso - Introdução ao JavaScript | [Acessar Repositorio](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/IJS%20-%20Introducao-ao-javascript) | [Abrir anotações](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/IJS%20-%20Introducao-ao-javascript/anotacoes.md) | [Contador](https://glowing-baklava-aec68c.netlify.app) | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/webpage/public/images/activity08.jpg"> | Finalizado |
-| Curso - Sintaxe e Operadores | [Abrir repositório](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/SO-Sintaxe_e_Operadores) | [Abrir anotações](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/SO-Sintaxe_e_Operadores/anotacoes.md) | x | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/webpage/public/images/activity09.jpg"> | Em andamento |
- 
+| Curso - Sintaxe e Operadores | [Abrir repositório](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/SO-Sintaxe_e_Operadores) | [Abrir anotações](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/SO-Sintaxe_e_Operadores/anotacoes.md) | x | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/webpage/public/images/activity09.jpg"> | Finalizado |
+| Curso - Variáveis e Tipos | --- | --- | --- | ---| Em andamento | 
 
 ---
 
