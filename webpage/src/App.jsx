@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import ProjectFull from "./pages/ProjectFull";
 import Projects from "./pages/Projects";
-
+import About from "./pages/About";
 import { Wrapper } from "./styles/app";
 import GlobalStyles from "./styles/GlobalStyles";
 
@@ -16,7 +16,8 @@ function App() {
       <main>
         {/* <Home /> */}
         {/* <Projects /> */}
-        <ProjectFull />
+        {/* <ProjectFull /> */}
+        <About />
       </main>
       <Footer />
     </Wrapper>
