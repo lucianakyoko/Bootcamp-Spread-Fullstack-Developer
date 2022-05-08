@@ -13,6 +13,10 @@ export const Subtitle = styled.h2`
   color: ${layoutColors.highlight};
   font-size: 2rem;
   font-weight: 700;
+
+  @media screen and (min-width: 700px) {
+    font-size: 3.2rem;
+  }
 `;
 
 export const SubtitleSmall = styled.h3`

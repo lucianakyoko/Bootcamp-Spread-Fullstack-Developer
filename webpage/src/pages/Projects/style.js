@@ -30,4 +30,8 @@ export const Header = styled.header`
     font-weight: 300;
     letter-spacing: 0.12em;
   }
+
+  @media screen and (min-width: 700px) {
+    padding: 0 4rem;
+  }
 `

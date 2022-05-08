@@ -8,6 +8,11 @@ export const TagWrapper = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: .8rem;
+
+  
+  @media screen and (min-width: 700px) {
+    padding: 0 4rem;
+  }
 `
 
 export const TagItem = styled.li`

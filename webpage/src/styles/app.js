@@ -38,6 +38,10 @@ export const Wrapper = styled.div`
   main {
     padding: 2.4rem;
     margin-top: 8rem;
+    
+    @media screen and (min-width: 700px) {
+      padding: 4rem;
+    }
   }
 `;
 
