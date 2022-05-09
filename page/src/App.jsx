@@ -1,12 +1,12 @@
 import GlobalStyles from "./styles/GlobalStyles";
-import { LogoLk } from './components/LogoLk';
+import { Header } from './components/Header'
 
 function App() {
 
   return (
     <div>
       <GlobalStyles />
-      <LogoLk />
+      <Header />
     </div>
   )
 }
