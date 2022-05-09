@@ -101,6 +101,7 @@ export const MenuList = styled.ul`
     font-family: 'Roboto Mono';
     font-size: 2.4rem;
     position: relative;
+    z-index: 2;
     
     &::after {
       content: '';
@@ -112,6 +113,7 @@ export const MenuList = styled.ul`
       position: absolute;
       bottom: -0.8rem;
       left: 0;
+      z-index: -1;
       transition: all .4s ease;
     }
     
