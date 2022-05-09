@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 import { layoutColors } from '../../styles/colors';
 import { MenuBtn } from '../../styles/mixins';
+import { headerSize } from '../../styles/ui';
+
 import { MdMenu, MdOutlineClose } from 'react-icons/md';
 
 export const HeaderWrapper = styled.header`
   width: 100%;
-  padding: 2.4rem;
+  height: ${headerSize.navHightMin};
+  padding: 0 2.4rem;
   background-color: ${layoutColors.primary};
   filter: drop-shadow(0px 8px 12px ${layoutColors.secondary});
 
@@ -16,7 +19,8 @@ export const HeaderWrapper = styled.header`
   position: fixed;
 
   @media screen and (min-width: 700px) {
-    padding: 4rem 16rem;
+    padding: 0 16rem;
+    height: ${headerSize.navHightMax};
   }
 `
 
