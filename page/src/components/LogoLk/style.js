@@ -14,4 +14,8 @@ export const Logo = styled.a`
     
     cursor: pointer;
   }
+
+  @media screen and (min-width: 700px) {
+    font-size: 4rem;
+  }
 `
