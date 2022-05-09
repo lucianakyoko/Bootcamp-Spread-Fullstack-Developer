@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { layoutColors } from './colors';
 
 export default createGlobalStyle`
   * {
@@ -9,6 +10,7 @@ export default createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    background-color: ${layoutColors.primary};
   }
 
   body {
