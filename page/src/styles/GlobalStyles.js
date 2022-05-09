@@ -9,6 +9,7 @@ export default createGlobalStyle`
   }
 
   html {
+    color: ${layoutColors.text};
     font-size: 62.5%;
     background-color: ${layoutColors.primary};
   }
