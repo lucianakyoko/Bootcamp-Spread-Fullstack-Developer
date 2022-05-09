@@ -3,20 +3,27 @@ import { layoutColors } from "../../../styles/colors";
 
 
 export const HeroWrapper = styled.div`
+  width: 100%;
   padding: 2.4rem;
   position: relative;
 
-  p {
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 150%;
-    margin-top: 3.2rem;
-    span {
-      font-weight: 700;
-    }
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4rem;
 
-  &::after {
+  @media screen and (min-width: 700px) {
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    gap: 10rem;
+  }
+`
+export const Division = styled.div`
+  position: relative;
+  padding: 2.4rem 0;
+    &::after {
     content: '';
     width: 10rem;
     height: .4rem;
@@ -28,32 +35,48 @@ export const HeroWrapper = styled.div`
   }
 
   @media screen and (min-width: 700px) {
-    max-width: 60rem;
-
+    padding: 2.4rem;
     &::after {
-      display: none;
-    }
-
-    p {
-      font-size: 2.4rem;
-      line-height: 3.6rem;
-
+      content: '';
+      width: .4rem;
+      height: 30%;
+      display: block;
+    
+      position: absolute;
+      top: 50%;
+      right: -4rem;
     }
   }
+`
+
+export const HeroParagraph = styled.p`
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 150%;
+  margin-top: 3.2rem;
+  span {
+    font-weight: 700;
+  }
+  
+  @media screen and (min-width: 700px) {
+    font-size: 2rem;
+    line-height: 32px;
+  }
+  
 `
 
 export const ImageWrapper = styled.div`
   width: 100%;
   margin-bottom: 2.4rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   gap: 1.8rem;
 `;
 
 export const BootcampLogoImg = styled.img`
-  width: 16.4rem;
-  height: 16.4rem;
+  width: 14rem;
+  height: 14rem;
 `;
 
 export const DioLogoImg = styled.img`
