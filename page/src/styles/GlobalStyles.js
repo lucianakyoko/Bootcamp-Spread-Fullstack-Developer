@@ -14,15 +14,6 @@ export default createGlobalStyle`
     font-size: 62.5%;
 
     background-color: ${layoutColors.primary};
-
-    ${lightBg1(layoutColors.light1, -10, 80)}
-    ${lightBg2(layoutColors.light2, 54, -18)}
-    overflow-x: hidden;
-    
-    @media screen and (min-width: 700px) {
-      ${lightBg1(layoutColors.light1, 10, 80)}
-      ${lightBg2(layoutColors.light2, 54, 8)}
-    }
   }
 
   body {
