@@ -4,7 +4,6 @@ import { layoutColors } from "../../../styles/colors";
 
 export const HeroWrapper = styled.div`
   width: 100%;
-  padding: 2.4rem;
   position: relative;
 
   display: flex;
@@ -23,7 +22,8 @@ export const HeroWrapper = styled.div`
 export const Division = styled.div`
   position: relative;
   padding: 2.4rem 0;
-    &::after {
+
+  &::after {
     content: '';
     width: 10rem;
     height: .4rem;
@@ -62,7 +62,6 @@ export const HeroParagraph = styled.p`
     font-size: 2rem;
     line-height: 32px;
   }
-  
 `
 
 export const ImageWrapper = styled.div`
