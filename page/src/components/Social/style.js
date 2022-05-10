@@ -3,6 +3,7 @@ import { layoutColors } from '../../styles/colors';
 
 export const SocialWrapper = styled.div`
   width: 100%;
+  padding: 2.4rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
