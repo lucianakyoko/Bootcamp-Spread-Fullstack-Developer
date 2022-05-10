@@ -3,6 +3,7 @@ import { layoutColors } from '../../styles/colors';
 
 export const FooterWrapper = styled.footer`
   width: 100%;
+
   margin-top: 2.4rem;
   padding: 2.4rem;
 
@@ -12,6 +13,8 @@ export const FooterWrapper = styled.footer`
   justify-content: center;
 
   background-color: ${layoutColors.secondary};
+  position: relative;
+  z-index: 2;
 
   @media screen and (min-width: 700px) {
     flex-direction: row-reverse;
