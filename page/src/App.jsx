@@ -1,14 +1,19 @@
 import GlobalStyles from "./styles/GlobalStyles";
-import { Header } from './components/Header'
+import { Header } from './components/Header';
+import { Home } from './pages/Home';
+import {MainWrapper} from './styles/app';
 
 function App() {
 
   return (
-    <div>
+    <>
       <GlobalStyles />
       <Header />
-    </div>
+      <MainWrapper>
+        <Home />
+      </MainWrapper>
+    </>
   )
 }
 
-export default App
+export default App;
