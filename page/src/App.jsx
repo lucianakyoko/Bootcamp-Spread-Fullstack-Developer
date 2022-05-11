@@ -1,3 +1,5 @@
+import {BrowserRouter as Router, Routes, Route} from 'react-router';
+
 import GlobalStyles from "./styles/GlobalStyles";
 import { Header } from './components/Header';
 import { Home } from './pages/Home';
@@ -11,17 +13,20 @@ import { ProjectFull } from './pages/ProjectFull';
 function App() {
 
   return (
-    <>
+    <Router>
       <GlobalStyles />
         <Header />
+        
         <MainWrapper>
-          {/* <Home /> */}
-          {/* <About /> */}
-          {/* <Projects /> */}
-          <ProjectFull />
+          <Routes>
+            <Route path='/' element={<Home />}/>
+            <Route path='/sobre' element={<About />}/>
+            <Route path='/projetos' element={<Projects />}/>
+            <Route path='/projetos/:projectId' element={<ProjectFull />}/>
+          </Routes>
         </MainWrapper>
         <Footer />
-    </>
+    </Router>
   )
 }
 
