@@ -13,8 +13,8 @@ function App() {
       <GlobalStyles />
         <Header />
         <MainWrapper>
-          {/* <Home /> */}
-          <About />
+          <Home />
+          {/* <About /> */}
         </MainWrapper>
         <Footer />
     </>
