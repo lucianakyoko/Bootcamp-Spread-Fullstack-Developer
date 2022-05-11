@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer";
 import { MainWrapper } from './styles/app';
 import { About } from "./pages/About";
 import { Projects } from "./pages/Projects";
+import { ProjectFull } from './pages/ProjectFull';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
         <MainWrapper>
           {/* <Home /> */}
           {/* <About /> */}
-          <Projects />
+          {/* <Projects /> */}
+          <ProjectFull />
         </MainWrapper>
         <Footer />
     </>
