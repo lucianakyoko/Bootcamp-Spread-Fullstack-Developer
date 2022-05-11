@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { LogoLk } from '../LogoLk';
 import { getMenuList } from '../../datas/pageNavigation';
@@ -21,7 +22,7 @@ export function Header() {
         <MenuList>
           { menuList.map(menu => (
             <li key={menu.id} onClick={handleClick}>
-              <a href={menu.href}>{menu.label}</a>
+              <Link to={menu.href}>{menu.label}</Link>
             </li>
           )) }
         </MenuList>

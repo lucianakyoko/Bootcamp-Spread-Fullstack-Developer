@@ -1,4 +1,8 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 import GlobalStyles from "./styles/GlobalStyles";
 import { Header } from './components/Header';
@@ -13,20 +17,21 @@ import { ProjectFull } from './pages/ProjectFull';
 function App() {
 
   return (
-    <Router>
-      <GlobalStyles />
-        <Header />
-        
-        <MainWrapper>
-          <Routes>
-            <Route path='/' element={<Home />}/>
-            <Route path='/sobre' element={<About />}/>
-            <Route path='/projetos' element={<Projects />}/>
-            <Route path='/projetos/:projectId' element={<ProjectFull />}/>
-          </Routes>
-        </MainWrapper>
-        <Footer />
-    </Router>
+    <>
+      <BrowserRouter>
+        <GlobalStyles />
+          <Header />     
+          <MainWrapper>
+            <Routes>
+              <Route path='/' element={<Home />}/>
+              <Route path='/sobre' element={<About />}/>
+              <Route path='/projetos' element={<Projects />}/>
+              <Route path='/projetos/:projectId' element={<ProjectFull />}/>
+            </Routes>
+          </MainWrapper>
+          <Footer />
+      </BrowserRouter>
+    </>
   )
 }
 

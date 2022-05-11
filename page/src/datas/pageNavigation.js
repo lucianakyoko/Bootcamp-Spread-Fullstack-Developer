@@ -2,17 +2,17 @@ const menuList = [
   {
     id: 'menu01',
     label: 'home',
-    href: '#'
+    href: '/'
   },
   {
     id: 'menu02',
     label: 'projetos',
-    href: '#'
+    href: '/projetos'
   },
   {
     id: 'menu03',
     label: 'sobre',
-    href: '#'
+    href: '/sobre'
   }
 ];
 
