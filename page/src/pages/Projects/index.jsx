@@ -2,10 +2,7 @@ import bootcamps from "../../datas/datas";
 import { H2 } from "../../styles/ui";
 import { Filter } from "./Filter";
 import { ProjectList } from './ProjectList';
-import {
-  ProjectSection,
-  ProjectHeader,
-} from './style';
+import { ProjectSection, ProjectHeader } from './style';
 
 export function Projects() {
   return (
