@@ -4,6 +4,7 @@ import { Home } from './pages/Home';
 import { Footer } from "./components/Footer";
 import { MainWrapper } from './styles/app';
 import { About } from "./pages/About";
+import { Projects } from "./pages/Projects";
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       <GlobalStyles />
         <Header />
         <MainWrapper>
-          <Home />
+          {/* <Home /> */}
           {/* <About /> */}
+          <Projects />
         </MainWrapper>
         <Footer />
     </>
