@@ -17,7 +17,7 @@ export const HeaderWrapper = styled.header`
   justify-content: space-between;
 
   position: fixed;
-  z-index: 2;
+  z-index: 3;
 
   @media screen and (min-width: 700px) {
     padding: 0 16rem;
