@@ -21,4 +21,9 @@ export const H2 = styled.h2`
   color: ${layoutColors.hightlight};
   font-size: 2rem;
   font-weight: 700;
+
+  
+  @media screen and (min-width: 700px) {
+    font-size: 3.2rem;
+  }
 `
