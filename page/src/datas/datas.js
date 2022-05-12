@@ -5,7 +5,7 @@ const bootcamps = [
     activity: "Lógica de Programação Essencial",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Logica%20de%20Programacao%20Essencial",
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Logica%20de%20Programacao%20Essencial/anotacoes.MD",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity01",
     tags:[ 
       "curso",
@@ -31,7 +31,7 @@ const bootcamps = [
     activity: "Curso Introdução ao Git e ao GitHub",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/Introducao%20ao%20Git%20e%20Github",
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Introducao%20ao%20Git%20e%20Github/anotacoes.md",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity02",
     tags: [
       "curso",
@@ -57,7 +57,7 @@ const bootcamps = [
     activity: "Desafio Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity03",
     tags: [
       "desafio",
@@ -103,7 +103,7 @@ const bootcamps = [
     activity: "Curso Introdução a criação de websites com HTML5 e CSS3",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/ICWHC%20-%20Introducao%20a%20criacao%20de%20websites%20com%20HTML%20e%20CSS",
     page: "https://heroic-cannoli-9ffcad.netlify.app/",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity05",
     tags: [
       "curso",
@@ -127,7 +127,7 @@ const bootcamps = [
     activity: "Curso Posicionando elementos com Flexbox e CSS",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/PEFC%20-%20Posicionando%20Elementos%20com%20Flexbox%20e%20CSS",
     page: "https://steady-sunshine-5d7b07.netlify.app/",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity06",
     tags: [
       "curso",
@@ -158,7 +158,7 @@ const bootcamps = [
     activity: "Desafio - Recriando a página inicial do Instagram",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/RPII%20-%20Recriando%20a%20Pagina%20Inicial%20do%20Instagram",
     page: "https://brilliant-cheesecake-c4dd3b.netlify.app/",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity07",
     tags: [
       "desafio",
@@ -178,7 +178,7 @@ const bootcamps = [
     activity: "Curso - Introdução ao JavaScript",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/IJS%20-%20Introducao-ao-javascript",
     page: "https://glowing-baklava-aec68c.netlify.app",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity08",
     tags: [
       "curso",
@@ -198,7 +198,7 @@ const bootcamps = [
     activity: "Curso - Sintaxe e Operadores",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/SO-Sintaxe_e_Operadores",
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/SO-Sintaxe_e_Operadores/compareNumber.js",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity09",
     tags: [
       "curso",
@@ -221,7 +221,7 @@ const bootcamps = [
     activity: "Curso - Variáveis e Tipos",
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/VT-Variaveis_e_Tipos",
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/VT-Variaveis_e_Tipos/praticas",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity10",
     tags: [
       "curso",
@@ -247,7 +247,7 @@ const bootcamps = [
     activity: "Curso - Funções",
     github: "",
     page: "",
-    post: "", 
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity11",
     tags: [
       "curso",
