@@ -1,4 +1,3 @@
-import { H2 } from "../../styles/ui";
 import {BsLinkedin, BsGithub} from 'react-icons/bs';
 import { SocialWrapper, SocialParagraph, SocialListWrapper, SocialLink } from "./style";
 
