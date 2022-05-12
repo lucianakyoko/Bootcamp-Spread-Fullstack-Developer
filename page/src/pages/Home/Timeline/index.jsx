@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { H1 } from '../../../styles/ui';
 import { 
@@ -19,13 +20,14 @@ export function Timeline({ bootcamps }) {
       <H1>Timeline:</H1>
       <BootcampListWrapper>
         {[...bootcamps].reverse().slice(0, loadMore).map(item => (
-        <BootcampItemWrapper key={item.id}>
-          <BootcampItemContent>
-            <BootcampModuleTitle>{item.modulo}</BootcampModuleTitle>
-            <BootcampActivityTitle>{item.activity}</BootcampActivityTitle>
-          </BootcampItemContent>
-        </BootcampItemWrapper>
-
+          <BootcampItemWrapper key={item.id}>
+            <Link to={`/projetos/${item.id}`} >
+              <BootcampItemContent>
+                <BootcampModuleTitle>{item.modulo}</BootcampModuleTitle>
+                <BootcampActivityTitle>{item.activity}</BootcampActivityTitle>
+              </BootcampItemContent>
+            </Link>
+          </BootcampItemWrapper>
         ))}
       </BootcampListWrapper>
 

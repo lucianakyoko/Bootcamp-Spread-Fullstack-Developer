@@ -23,10 +23,10 @@ function App() {
           <Header />     
           <MainWrapper>
             <Routes>
+              <Route path='sobre' element={<About />}/>
+              <Route path='projetos' element={<Projects />}/>
+              <Route path='projetos/:projectId' element={ <ProjectFull />} />
               <Route path='/' element={<Home />}/>
-              <Route path='/sobre' element={<About />}/>
-              <Route path='/projetos' element={<Projects />}/>
-              <Route path='/projetos/:projectId' element={<ProjectFull />}/>
             </Routes>
           </MainWrapper>
           <Footer />
