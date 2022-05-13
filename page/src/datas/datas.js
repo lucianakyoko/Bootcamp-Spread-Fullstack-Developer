@@ -225,15 +225,27 @@ const bootcamps = [
     id: "bootcamp11",
     modulo: "Módulo III - JavaScript",
     activity: "Curso - Funções",
-    github: "",
-    page: "",
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/F-Funcoes",
+    page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/F-Funcoes",
     post: "https://www.linkedin.com/in/lucianakyoko", 
-    image: "activity00",
+    image: "activity11",
     category: "curso",
     tag: "javascript",
     description: "Sobre Funções no JavaScript",
-    learned:[],
-    certificate:""
+    learned:[
+      "Tipos de função",
+      "Função autoinvocável e callbacks",
+      "Parâmetros",
+      "Valores padrão e Objeto arguments",
+      "Arrays e Objetos",
+      "Loops",
+      "If/ Else e Switch",
+      "For e While",
+      "This e manipulando o seu valor",
+      "Arrow functions",
+      "Restrições da arrow function"
+    ],
+    certificate:"https://www.dio.me/certificate/221B53EF/share"
   }
 ];
 
