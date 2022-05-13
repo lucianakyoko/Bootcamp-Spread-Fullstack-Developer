@@ -7,10 +7,8 @@ const bootcamps = [
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Logica%20de%20Programacao%20Essencial/anotacoes.MD",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity01",
-    tags:[ 
-      "curso",
-      "logica"     
-    ],
+    category: "curso",
+    tag: "logica",
     description: "Entendendo o que é lógica.",
     learned: [
       "O que é lógica",
@@ -33,10 +31,8 @@ const bootcamps = [
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Introducao%20ao%20Git%20e%20Github/anotacoes.md",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity02",
-    tags: [
-      "curso",
-      "gitgithub"
-    ],
+    category: "curso",
+    tag:"gitgithub",
     description: "Entendendo o que é Git e sua importância",
     learned: [
       "O que é Git e sua importância",
@@ -59,10 +55,8 @@ const bootcamps = [
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity03",
-    tags: [
-      "desafio",
-      "gitgithub"
-    ],
+    category: "desafio",
+    tag: "gitgithub",
     description: "Reforce seu conhecimento em Git com um desafio de projeto totalmente prático, onde você executará todos os passos para a criação, atualização e sincronização de um repositório no GitHub. Para isso, tenha em mente todas as dicas e direcionamen tos apresentados pelo expert nas aulas. Dessa forma, você poderá compartilhar suas anotações e exercícios em seu próprio repositório. Criando assim, o primeiro (de muitos) projetos do seu portfólio.",
     learned: [
       "Criar um novo repositório no Github",
@@ -79,10 +73,8 @@ const bootcamps = [
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/Primeiros%20passos%20para%20desenvolvimento%20web/anotacoes.md",
     post: "https://www.dio.me/certificate/C417AD61/share", 
     image: "activity04",
-    tags: [
-      "curso",
-      "htmlcss"
-    ],
+    category: "curso",
+    tag: "htmlcss",
     description: "Introdução ao tema",
     learned:[
       "O que é internet",
@@ -105,10 +97,8 @@ const bootcamps = [
     page: "https://heroic-cannoli-9ffcad.netlify.app/",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity05",
-    tags: [
-      "curso",
-      "htmlcss"
-    ],
+    category: "curso",
+    tag: "htmlcss",
     description: "Estrutura básica",
     learned:[
       "Estrutura básica",
@@ -129,10 +119,8 @@ const bootcamps = [
     page: "https://steady-sunshine-5d7b07.netlify.app/",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity06",
-    tags: [
-      "curso",
-      "htmlcss"
-    ],
+    category: "curso",
+    tag: "htmlcss",
     description: "Proposta de projeto final",
     learned:[
       "Flex container",
@@ -160,10 +148,8 @@ const bootcamps = [
     page: "https://brilliant-cheesecake-c4dd3b.netlify.app/",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity07",
-    tags: [
-      "desafio",
-      "htmlcss"
-    ],
+    category: "desafio",
+    tag: "htmlcss",
     description: "O desafio de reconstruir a página de login do Instagram",
     learned:[
       "Uso de flexbox",
@@ -180,10 +166,8 @@ const bootcamps = [
     page: "https://glowing-baklava-aec68c.netlify.app",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity08",
-    tags: [
-      "curso",
-      "javascript"
-    ],
+    category: "curso",
+    tag: "javascript",
     description: "Conceitos fundamentais do JavaScript",
     "learned":[
       "História, Evolução e Aplicações",
@@ -200,10 +184,8 @@ const bootcamps = [
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/SO-Sintaxe_e_Operadores/compareNumber.js",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity09",
-    tags: [
-      "curso",
-      "javascript"
-    ],
+    category: "curso",
+    tag: "javascript",
     description: "A sintaxe e operadores do JavaScript",
     learned:[
       "Tipos de operadores",
@@ -223,10 +205,8 @@ const bootcamps = [
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/VT-Variaveis_e_Tipos/praticas",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity10",
-    tags: [
-      "curso",
-      "javascript"
-    ],
+    category: "curso",
+    tag: "javascript",
     description: "Sobre variáveis e tipos no JavaScript",
     learned:[
       "Variáveis, constantes",
@@ -249,10 +229,8 @@ const bootcamps = [
     page: "",
     post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity11",
-    tags: [
-      "curso",
-      "javascript"
-    ],
+    category: "curso",
+    tag: "javascript",
     description: "Sobre Funções no JavaScript",
     learned:[],
     certificate:""
