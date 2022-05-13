@@ -14,7 +14,7 @@ export const FooterWrapper = styled.footer`
 
   background-color: ${layoutColors.secondary};
   position: relative;
-  z-index: 2;
+  z-index: -1;
 
   @media screen and (min-width: 700px) {
     flex-direction: row-reverse;
