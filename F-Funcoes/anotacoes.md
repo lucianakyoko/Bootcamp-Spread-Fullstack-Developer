@@ -393,11 +393,113 @@ exemploDoWhile();
 //6
 ```
 
-
-
-
-
 # Aula 4 - This
+A palavra reservada this é uma referência de contexto.
+No exemplo, this refere-se ao objeto pessoa:
+
+```
+const pessoa = {
+  firstName: 'André',
+  lastName: 'Soares',
+  id: 1,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  },
+  getId: function() {
+    return this.id
+  }
+};
+
+pessoa.fullName(); //"André Soares"
+pessoa.getId(); //1
+```
+
+## This: o que é?
+Seu valor pode mudar de acordo com o lugar no código onde foi chamada.
+
+| Contexto | Referência |
+| --- | --- |
+| Em um objeto (método) | Próprio objeto dono do método |
+| Sozinha | Objeto global (em navegadores, window) |
+| Função | Objeto global |
+| Evento | Elemento que recebeu o evento |
+
+
+### Manipulando seu valor:
+#### Call:
+```
+const pessoa = {
+  nome: 'Miguel',
+};
+
+const animal = {
+  nome: 'Murphy',
+};
+
+function getSomething() {
+  console.log(this.nome);
+}
+getSomething.call(pessoa); //'Miguel'
+getSomething.call(animal); //'Murphy'
+
+```
+
+É possível passar parâmetros para essa função separando-os por vírgulas.
+```
+const myObj = {
+  num1: 2,
+  num2: 4,
+};
+
+function soma(a, b) {
+  console.log(this.num1 + this.num2 + a + b);
+}
+
+soma.call(myObj, 1, 5); //12
+```
+
+#### Applay:
+```
+const pessoa = {
+  nome: 'Miguel',
+};
+
+const animal = {
+  nome: 'Godi',
+};
+
+function getSomething() {
+  console.log(this.nome);
+}
+
+getSomething.apply(pessoa);//'Miguel'
+getSomething.apply(animal);//'Godi'
+```
+
+É possível passar parâmetros para essa função dentro de um array.
+```
+const myObj = {
+  num1: 2,
+  num2: 4,
+};
+
+function soma(a, b) {
+  console.log(this.num1 + this.num2 + a + b);
+}
+
+soma.apply(myObj, [1, 5]); //12
+```
+
+#### bind
+Clona a estrutura da função onde é chamada e aplica o valor do objeto passado como parâmetro.
+```
+const retornaNomes = function() {
+  return this.nome;
+};
+
+let bruno = retornaNomes.bind({nome: 'Bruno'});
+bruno(); //Bruno
+```
 # Aula 5 -  Arrow Functions
 # Aula 6 - 
 
