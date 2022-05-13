@@ -228,7 +228,7 @@ const bootcamps = [
     github: "",
     page: "",
     post: "https://www.linkedin.com/in/lucianakyoko", 
-    image: "activity11",
+    image: "activity00",
     category: "curso",
     tag: "javascript",
     description: "Sobre Funções no JavaScript",
