@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
-import { getTagLabel } from '../../../../utils/getTagLabel';
-import { getTagColor } from '../../../../utils/getTagColor';
+import { getCategoryLabel } from '../../../../utils/getLabel';
+import { getCategoryColor } from '../../../../utils/getColor';
 
 import {
   ProjectItemWrapper,
@@ -10,16 +10,16 @@ import {
   Tag
 } from './style';
 
-export function ProjectItem({ item }) {
+export function ProjectItem(props) {
+  const {id, image, activity, tag, category} = props;
   return (
-    <ProjectItemWrapper key={item.id}>
-      <Link to={`/projetos/${item.id}`}>
-      <img src={`./src/assets/projects/${item.image}.jpg`} alt="" />
+    <ProjectItemWrapper>
+      <Link to={`/projetos/${id}`}>
+      <img src={`./src/assets/projects/${image}.jpg`} alt="Screenshot do projeto" />
       <ProjectDescriptionWrapper>
-        <h3>{item.activity}</h3>
+        <h3>{activity}</h3>
         <TagWrapper>
-          <Tag color={getTagColor(item.tags[0])}>{getTagLabel(item.tags[0])}</Tag>
-          <Tag color={getTagColor(item.tags[1])}>{getTagLabel(item.tags[1])}</Tag>
+          <Tag color={getCategoryColor(category)}>{getCategoryLabel(category)}</Tag>
         </TagWrapper>
       </ProjectDescriptionWrapper>
     </Link>
