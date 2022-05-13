@@ -25,8 +25,8 @@ export const AboutSection = styled.section`
     position: relative;
     z-index: 1;
 
-    ${lightBg1(layoutColors.light1, 10, 80)}
-    ${lightBg2(layoutColors.light2, 40, 10)}
+    ${lightBg1(layoutColors.light1, -10, 80)}
+    ${lightBg2(layoutColors.light2, -0, -10)}
   }
 `
 
