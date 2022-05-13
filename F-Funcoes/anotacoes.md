@@ -500,6 +500,30 @@ const retornaNomes = function() {
 let bruno = retornaNomes.bind({nome: 'Bruno'});
 bruno(); //Bruno
 ```
+
 # Aula 5 -  Arrow Functions
+## sintaxe:
+```
+const helloWorld = () => {
+  return "Hello, world!";
+}
+```
+
+caso exista apenas uma linha, pode dispensar as chaves e o return:
+```
+const helloWorld = () => "Hello, world!"
+```
+
+caso exista apenas um parâmetro, pode dispensar os parênteses:
+```
+const soma = a => a;
+soma(4) //4
+```
+## Restrições:
+ - Arrow functions NÃO faz hoisting!!
+ - "this" sempre será o objeto global. Métodos para modificar seu valor não irão funcionar
+ - Não existe o objeto "arguments"
+ - O construtor (ex: new MeuObjeto()) também não pode ser utilizado
+
 # Aula 6 - 
 
