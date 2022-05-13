@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { BackToTopBtn } from '../../components/BackToTopBtn';
+import { BackToTopBtn } from '../../components/BackToTopBtn'
 
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { GiDiploma } from 'react-icons/gi';
@@ -40,7 +40,7 @@ export function ProjectFull() {
 
       <ProjectContent>
         <ImgAndLinksWrapper>
-          <img src={`${bootcamp.image}.jpg`} alt={`Screenshot do projeto ${bootcamp.activity}`} />
+          <img src={`/projects/${bootcamp.image}.jpg`} alt={`Screenshot do projeto ${bootcamp.activity}`} />
           <LinksContainer>
             <H3>Links:</H3>
             <LinksWrapper>
