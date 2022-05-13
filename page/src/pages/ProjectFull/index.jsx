@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { BackToTopBtn } from '../../components/BackToTopBtn';
 
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { GiDiploma } from 'react-icons/gi';
@@ -96,6 +97,8 @@ export function ProjectFull() {
           </ul>
         </LearnedWrapper>
       </ProjectContent>
+
+      <BackToTopBtn />
     </ProjectFullSection>
   );
 

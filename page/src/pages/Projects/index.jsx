@@ -2,6 +2,7 @@ import { useState } from "react";
 import { H2 } from "../../styles/ui";
 import { Filter } from "./Filter";
 import { ProjectList } from './ProjectList';
+import { BackToTopBtn } from '../../components/BackToTopBtn';
 import { ProjectSection, ProjectHeader } from './style';
 
 export function Projects() {
@@ -19,6 +20,8 @@ export function Projects() {
         setCategoryfilter={setCategoryfilter}
       />
       <ProjectList tagfilter={tagfilter} categoryfilter={categoryfilter}/>
+
+      <BackToTopBtn />
     </ProjectSection>
   );
 }

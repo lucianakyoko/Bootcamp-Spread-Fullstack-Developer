@@ -1,5 +1,6 @@
 import { Hero } from "./Hero";
 import { Timeline } from "./Timeline";
+import { BackToTopBtn } from '../../components/BackToTopBtn';
 import bootcamps from "../../datas/datas";
 
 import {HomeSection
@@ -12,6 +13,8 @@ export function Home() {
       <Hero />
 
       <Timeline bootcamps={bootcamps}/>
+
+      <BackToTopBtn />
     </HomeSection>
   );
 }
