@@ -171,16 +171,232 @@ userId(user) //42
 getFullName(user) //John Doe
 ```
 
-
-
-
-
-
-
-
-
-
 # Aula 3 - Loops
+## If/ Else e Switch:
+### If/Else:
+```
+function numeroPositivo(num) {
+  let resultado;
+
+  if(num < 0>) {
+    resultado = false;
+  } else {
+    resultado = true;
+  }
+
+  return resultado;
+}
+
+numeroPositivo(2) //true
+numeroPositivo(-9) //false
+```
+
+condicional dentro de uma variável:
+
+```
+function numeroPositivo(num) {
+  let resultado;
+  const ehNegativo = num < 0;
+
+  if(ehNegativo) {
+    resultado = false;
+  } else {
+    resultado = true;
+  }
+
+  return resultado;
+}
+```
+
+Nem sempre precisamos do else:
+```
+function numeroPositivo(num) {
+  const ehNegativo = num < 0;
+
+  if(ehNegativo) {
+    resultado = false;
+  } 
+
+  return true;
+```
+
+O JavaScript não tem elseif, as palavras sempre estarão separadas
+
+### Switch/case:
+Equivale a uma comparação de tipo e valor (===)
+Sempre precisa de um valor default
+Ideal para quando se precisa comparar muitos valores
+
+```
+function getAnimal(id) {
+  switch(id) {
+    case 1: return 'cão';
+    case 2: return 'gato';
+    case 3: return 'pássaro';
+    default: return 'peixe';
+  }
+}
+
+getAnimal(1) //cão
+getAnimal(4) //peixe
+getAnimal("1") //peixe
+```
+
+## for e while
+### for:
+Loop dentro de elementos iteráveis (arrays, strings):
+
+```
+function multiplicaPorDois(arr) {
+  let multiplicados = [];
+
+  for(let i=0; i < arr.length; i++) {
+    multiplicados.push(arr[i] * 2);
+  }
+  return multiplicados;
+}
+
+const meus numeros = [2, 33, 456, 356, 40];
+multiplicaPorDois(numeros) //[4, 66, 912, 712, 80]
+```
+
+### For ...in:
+Loop entre propriedades enumeráveis de um objeto.
+```
+function forInExemplo(obj) {
+  for(prop in obj) {
+    console.log(prop)
+  }
+}
+
+const meuObjeto = {
+  nome: 'João',
+  idade: 25,
+  cidade: 'Salvador'
+}
+
+forInExemplo(meuObjeto);
+//nome
+//idade
+//cidade
+```
+
+```
+function forInExemplo(obj) {
+  for(prop in obj) {
+    console.log(prop[prop])
+  }
+}
+
+const meuObjeto = {
+  nome: 'João',
+  idade: 25,
+  cidade: 'Salvador'
+}
+
+forInExemplo(meuObjeto);
+//'João'
+//25
+//'Salvador'
+```
+
+### For ...of:
+Loop entre estruturas iteráveis (arrays, strings).
+
+```
+function logLetras(palavra) {
+  for(letra of palavra) {
+    console.log(letra)
+  }
+}
+
+const palavra = 'abacaxi';
+logLetras(palavra);
+//a
+//b
+//a
+//c
+//a
+//x
+//i
+```
+
+```
+function logNumeros(nums) {
+  for(num of nums) {
+    console.log(num);
+  }
+}
+
+const nums = [30, 20, 233, 2];
+logNumeros(nums);
+//30
+//20
+//233
+//2
+```
+
+### while e do ...while:
+
+#### while:
+Executa instruções até que a condição se torne falsa.
+
+```
+function exemploWhile() {
+  let num = 0;
+
+  while(num <= 5>) {
+    console.log(num)
+    num++;
+  }
+}
+
+exemploWhile()
+//0
+//1
+//2
+```
+
+#### do ...while:
+Executa instruções até que a consição se torne falsa. Porém, a primeira execução sempre ocorre.
+
+```
+function exemploDoWhile() {
+  let num = 0;
+
+  do {
+    console.log(num);
+    num++;
+  } while(num <= 5)
+}
+
+exemploDoWhile();
+//0
+//1
+//2
+//3
+//4
+//5
+```
+
+```
+function exemploDoWhile() {
+  let num = 6;
+
+  do {
+    console.log(num);
+    num++;
+  } while(num <= 5)
+}
+
+exemploDoWhile();
+//6
+```
+
+
+
+
+
 # Aula 4 - This
 # Aula 5 -  Arrow Functions
 # Aula 6 - 
