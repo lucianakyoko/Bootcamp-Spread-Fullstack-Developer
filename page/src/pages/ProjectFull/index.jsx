@@ -40,7 +40,7 @@ export function ProjectFull() {
 
       <ProjectContent>
         <ImgAndLinksWrapper>
-          <img src={`../src/assets/projects/${bootcamp.image}.jpg`} alt={`Screenshot do projeto ${bootcamp.activity}`} />
+          <img src={`/src/assets/projects/${bootcamp.image}.jpg`} alt={`Screenshot do projeto ${bootcamp.activity}`} />
           <LinksContainer>
             <H3>Links:</H3>
             <LinksWrapper>

@@ -15,7 +15,7 @@ export function ProjectItem(props) {
   return (
     <ProjectItemWrapper>
       <Link to={`/projetos/${id}`}>
-      <img src={`./src/assets/projects/${image}.jpg`} alt="Screenshot do projeto" />
+      <img src={`/src/assets/projects/${image}.jpg`} alt="Screenshot do projeto" />
       <ProjectDescriptionWrapper>
         <h3>{activity}</h3>
         <TagWrapper>
