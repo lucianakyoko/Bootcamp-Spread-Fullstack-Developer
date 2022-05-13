@@ -30,14 +30,15 @@ export const TagsWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: .8rem;
+`
 
-  span {
-    padding: .4rem 1.6rem;
-    background-color: violet;
-    color: ${layoutColors.primary};
-    font-size: 1.4rem;
-    border-radius: 8px;
-  }
+export const TagItem = styled.span`
+  background-color: ${props => props.color};
+  padding: .4rem 1.6rem;
+  color: ${layoutColors.primary};
+  font-size: 1.4rem;
+  border-radius: 8px;
+  filter: drop-shadow(4px 4px 4px black);
 `
 
 export const ProjectContent = styled.div`
@@ -56,6 +57,9 @@ export const ImgAndLinksWrapper = styled.div`
   img {
     width: 30rem;
     height: 20rem;
+
+    border-radius: 8px;
+    filter: drop-shadow(4px 4px 4px black);
   }
 
   @media screen and (min-width: 700px) {

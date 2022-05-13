@@ -1,13 +1,19 @@
-import { H2, H3 } from "../../styles/ui";
+import { useParams } from 'react-router-dom';
 
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { GiDiploma } from 'react-icons/gi';
 import { BiLinkAlt } from 'react-icons/bi';
 
+import  bootcamps from '../../datas/datas';
+import { getCategoryColor, getTagColor } from '../../utils/getColor';
+import { getCategoryLabel, getTagLabel } from '../../utils/getLabel';
+
+import { H2, H3 } from "../../styles/ui";
 import {
   ProjectFullSection,
   Header,
   TagsWrapper,
+  TagItem,
   ProjectContent,
   ImgAndLinksWrapper,
   LinksContainer,
@@ -18,38 +24,57 @@ import {
 } from './style';
 
 export function ProjectFull() {
+  const { projectId } = useParams();
+  const bootcamp = bootcamps.find(item => item.id === projectId);
+
   return(
     <ProjectFullSection>
       <Header>
-        <H2>Projeto completo</H2>
+        <H2>{bootcamp.activity}</H2>
         <TagsWrapper>
-          <span>curso</span>
-          <span>javaScript</span>
+          <TagItem color={getCategoryColor(bootcamp.category)}>{getCategoryLabel(bootcamp.category)}</TagItem>
+          <TagItem color={getTagColor(bootcamp.tag)}>{getTagLabel(bootcamp.tag)}</TagItem>
         </TagsWrapper>
       </Header>
 
       <ProjectContent>
         <ImgAndLinksWrapper>
-          <img src="./src/assets/projects/activity01.jpg" alt="" />
+          <img src={`../src/assets/projects/${bootcamp.image}.jpg`} alt={`Screenshot do projeto ${bootcamp.activity}`} />
           <LinksContainer>
             <H3>Links:</H3>
             <LinksWrapper>
-              <a href="#">
+              <a 
+                href={bootcamp.post}
+                rel="noopener noreferrer" 
+                target="_blank"
+              >
                 <LinkIcon><BsLinkedin/></LinkIcon>
                 post do projeto
               </a>
 
-              <a href="#">
+              <a 
+                href={bootcamp.github}
+                rel="noopener noreferrer" 
+                target="_blank"
+              >
                 <LinkIcon><BsGithub/></LinkIcon>
                 código fonte
               </a>
 
-              <a href="#">
+              <a 
+                href={bootcamp.page}
+                rel="noopener noreferrer" 
+                target="_blank"
+              >
                 <LinkIcon><BiLinkAlt/></LinkIcon>
                 deploy
               </a>
 
-              <a href="#">
+              <a 
+                href={bootcamp.certificate}
+                rel="noopener noreferrer" 
+                target="_blank"
+              >
                 <LinkIcon><GiDiploma/></LinkIcon>
                 certificado
               </a>
@@ -59,22 +84,15 @@ export function ProjectFull() {
 
         <DescriptionWrapper>
           <H3>Descrição:</H3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestiae explicabo recusandae cumque in? Nesciunt!</p>
+          <p>{bootcamp.description}</p>
         </DescriptionWrapper>
 
         <LearnedWrapper>
           <H3>O que aprendi:</H3>
           <ul>
-            <li>O que é lógica</li>
-            <li>Algoritmos e pseudo código</li>
-            <li>Fluxograma, variáveis e constantes</li>
-            <li>Tomadas de decisões e expressões</li>
-            <li>Estrutura de repetição</li>
-            <li>O que são linguagens de programação</li>
-            <li>Desvios condicionais e Boas práticas em programação</li>
-            <li>Laços de repetição em Portugol</li>
-            <li>Aplicação prática com matrizes e vetores</li>
-            
+            {bootcamp.learned.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}     
           </ul>
         </LearnedWrapper>
       </ProjectContent>
