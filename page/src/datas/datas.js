@@ -251,15 +251,20 @@ const bootcamps = [
     id: "bootcamp12",
     modulo: "Módulo III - JavaScript",
     activity: "Curso - Coleções",
-    github: "",
-    page: "",
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/C-Colecoes",
+    page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/C-Colecoes",
     post: "https://www.linkedin.com/in/lucianakyoko", 
-    image: "activity00",
+    image: "activity12",
     category: "curso",
     tag: "javascript",
     description: "Compreender conceitos e aplicações sobre a coleção Map. E entender a diferença entre Map e Objeto",
-    learned:[],
-    certificate:""
+    learned:[
+      "Map: estrutura e métodos",
+      "Map vs Objeto",
+      "Set: estrutura e métodos",
+      "Set vs Array"
+    ],
+    certificate:"https://www.dio.me/certificate/ABB0FA63/share"
   }
 ];
 
