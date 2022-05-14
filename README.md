@@ -44,40 +44,40 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 ---
 
 ## Módulo IV: ReactJS
-| Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
-| --- | --- | --- | --- | --- |
-| Curso - Introducao ao ReactJS | --- | --- | --- | Nao iniciado |
-| Curso - Introducao ao React Hooks | --- | --- | --- | Nao iniciado |
-| Curso - Trabalhando com States & Effects no ReactJs | --- | --- | --- | Nao iniciado |
-| Curso - Desenvolvimento de aplicacoes para internet com ReactJS | --- | --- | --- | Nao iniciado |
-| Desafio de codigo - Desafios intermediarios Js - Spread FullStack | --- | --- | --- | Nao iniciado |
-| Curso - Praticas avancadas em projetos com ReactJS | --- | --- | --- | Nao iniciado |
-| Curso - Introducao a Redux com ReactJs | --- | --- | --- | Nao iniciado |
-| Desafio de projeto - Criando um front-end totalmente componentizado | --- | --- | --- | Nao iniciado |
+| Curso ou Desafio | Projeto | Anotacoes | Link | Preview | Status |
+| --- | --- | --- | --- | --- | --- |
+| Curso - Introducao ao ReactJS | --- | --- | --- | --- | Nao iniciado |
+| Curso - Introducao ao React Hooks | --- | --- | --- | --- | Nao iniciado |
+| Curso - Trabalhando com States & Effects no ReactJs | --- | --- | --- | --- | Nao iniciado |
+| Curso - Desenvolvimento de aplicacoes para internet com ReactJS | --- | --- | --- | --- | Nao iniciado |
+| Desafio de codigo - Desafios intermediarios Js - Spread FullStack | --- | --- | --- | --- | Nao iniciado |
+| Curso - Praticas avancadas em projetos com ReactJS | --- | --- | --- | --- | Nao iniciado |
+| Curso - Introducao a Redux com ReactJs | --- | --- | --- | --- | Nao iniciado |
+| Desafio de projeto - Criando um front-end totalmente componentizado | --- | --- | --- | --- | Nao iniciado |
  
 
 ---
 
 ## Módulo V: Banco de Dados
-| Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
-| --- | --- | --- | --- | --- |
-| Curso - MySql - Trabalhando com as suas primeiras tabelas | --- | --- | --- | Nao iniciado |
-| Curso - MySql - Consultas com Join | --- | --- | --- | Nao iniciado |
+| Curso ou Desafio | Projeto | Anotacoes | Link | Preview | Status |
+| --- | --- | --- | --- | --- | --- |
+| Curso - MySql - Trabalhando com as suas primeiras tabelas | --- | --- | --- | --- | Nao iniciado |
+| Curso - MySql - Consultas com Join | --- | --- | --- | --- | Nao iniciado |
  
 
 ---
 
 
 ## Módulo IV: Node.js
-| Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
-| --- | --- | --- | --- | --- |
-| Curso - Introducao a APIs e metodos HTTP | --- | --- | --- | Nao iniciado |
-| Curso - Desenvolvimento back-end com Node.js | --- | --- | --- | Nao iniciado |
-| Curso - Introducao ao Node.js com Express | --- | --- | --- | Nao iniciado |
-| Desafio de codigo - Desafios finais Js - Spread Fullstack | --- | --- | --- | Nao iniciado |
-| Curso - Explorando o estilo arquitetural REST com Node.js | --- | --- | --- | Nao iniciado |
-| Curso - Node.js com banco de dados relacionais (SQL) | --- | --- | --- | Nao iniciado |
-| Desafio de projeto - Construindo Encurtador de URL | --- | --- | --- | Nao iniciado |
+| Curso ou Desafio | Projeto | Anotacoes | Link | Preview | Status |
+| --- | --- | --- | --- | --- | --- |
+| Curso - Introducao a APIs e metodos HTTP | --- | --- | --- | --- | Nao iniciado |
+| Curso - Desenvolvimento back-end com Node.js | --- | --- | --- | --- | Nao iniciado |
+| Curso - Introducao ao Node.js com Express | --- | --- | --- | --- | Nao iniciado |
+| Desafio de codigo - Desafios finais Js - Spread Fullstack | --- | --- | --- | --- | Nao iniciado |
+| Curso - Explorando o estilo arquitetural REST com Node.js | --- | --- | --- | --- | Nao iniciado |
+| Curso - Node.js com banco de dados relacionais (SQL) | --- | --- | --- | --- | Nao iniciado |
+| Desafio de projeto - Construindo Encurtador de URL | --- | --- | --- | --- | Nao iniciado |
 
  
 
