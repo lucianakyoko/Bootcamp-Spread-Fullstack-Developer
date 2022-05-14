@@ -246,6 +246,20 @@ const bootcamps = [
       "Restrições da arrow function"
     ],
     certificate:"https://www.dio.me/certificate/221B53EF/share"
+  },
+  {
+    id: "bootcamp12",
+    modulo: "Módulo III - JavaScript",
+    activity: "Curso - Coleções",
+    github: "",
+    page: "",
+    post: "https://www.linkedin.com/in/lucianakyoko", 
+    image: "activity00",
+    category: "curso",
+    tag: "javascript",
+    description: "Compreender conceitos e aplicações sobre a coleção Map. E entender a diferença entre Map e Objeto",
+    learned:[],
+    certificate:""
   }
 ];
 
