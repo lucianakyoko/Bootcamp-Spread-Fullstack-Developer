@@ -265,8 +265,39 @@ const bootcamps = [
       "Set vs Array"
     ],
     certificate:"https://www.dio.me/certificate/ABB0FA63/share"
+  },
+  {
+    id: "bootcamp13",
+    modulo: "Módulo III - JavaScript",
+    activity: "Curso - Map, Filter e Reduce",
+    github: "",
+    page: "",
+    post: "", 
+    image: "activity00",
+    category: "curso",
+    tag: "javascript",
+    description: "Compreender a utilização de três métodos importantes para Arrays",
+    learned:[],
+    certificate:""
   }
 ];
 
 export default bootcamps;
 
+/*
+{
+    id: "bootcampXX",
+    modulo: "",
+    activity: "activity00",
+    github: "",
+    page: "",
+    post: "", 
+    image: "",
+    category: "",
+    tag: "",
+    description: "",
+    learned:[],
+    certificate:""
+  }
+
+*/
