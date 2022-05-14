@@ -32,19 +32,53 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 | Curso - Variáveis e Tipos | [Abrir repositório](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/VT-Variaveis_e_Tipos) | [Abrir anotações](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/VT-Variaveis_e_Tipos/anotacoes.md) | [projetos](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/VT-Variaveis_e_Tipos/praticas) | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/page/public/projects/activity10.jpg"> | Finalizado |
 | Curso - Funções | [Abrir repositorio](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/F-Funcoes) | [Abrir anotacoes](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/F-Funcoes/anotacoes.md) | x | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/page/public/projects/activity11.jpg"> | Finalizado |
 | Curso - Coleções | [Abrir repositorio](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/C-Colecoes) | [Abrir anotacoes](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/C-Colecoes/notes.md) | x | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/page/public/projects/activity10.jpg"> | Finalizado |
-| --- | --- | --- | --- | ---| --- |
+| Curso - Map, Filter e Reduce | --- | --- | --- | ---| Em andamento |
+| Curso - Debbugin e Error Handling | --- | --- | --- | ---| Nao iniciado |
+| Curso - JavaScript assincrono | --- | --- | --- | ---| Nao iniciado |
+| Curso - Orientacao a Objetos | --- | --- | --- | ---| Nao iniciado |
+| Curso - Trabalhando com Modulos em JavaScript | --- | --- | --- | ---| Nao iniciado |
+| Curso - Manipulando a DOM com JavaScript | --- | --- | --- | ---| Nao iniciado |
+| Curso - Introducao ao Typescript: explorando classes, tipos e interfaces | --- | --- | --- | ---| Nao iniciado |
+| Desafio de codigo - Desafios iniciais Js - Spread Fullstack| --- | --- | --- | ---| Nao iniciado |
+| Desafio de projeto - Aprenda a criar um sistema de estacionamento usando JS| --- | --- | --- | ---| Nao iniciado |
 ---
 
 ## Módulo IV: ReactJS
 | Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
-| --- | --- | --- | --- | ---|
+| --- | --- | --- | --- | --- |
+| Curso - Introducao ao ReactJS | --- | --- | --- | Nao iniciado |
+| Curso - Introducao ao React Hooks | --- | --- | --- | Nao iniciado |
+| Curso - Trabalhando com States & Effects no ReactJs | --- | --- | --- | Nao iniciado |
+| Curso - Desenvolvimento de aplicacoes para internet com ReactJS | --- | --- | --- | Nao iniciado |
+| Desafio de codigo - Desafios intermediarios Js - Spread FullStack | --- | --- | --- | Nao iniciado |
+| Curso - Praticas avancadas em projetos com ReactJS | --- | --- | --- | Nao iniciado |
+| Curso - Introducao a Redux com ReactJs | --- | --- | --- | Nao iniciado |
+| Desafio de projeto - Criando um front-end totalmente componentizado | --- | --- | --- | Nao iniciado |
  
 
 ---
 
 ## Módulo V: Banco de Dados
 | Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
-| --- | --- | --- | --- | ---|
+| --- | --- | --- | --- | --- |
+| Curso - MySql - Trabalhando com as suas primeiras tabelas | --- | --- | --- | Nao iniciado |
+| Curso - MySql - Consultas com Join | --- | --- | --- | Nao iniciado |
+ 
+
+---
+
+
+## Módulo IV: Node.js
+| Curso ou Desafio | Projeto | Anotacoes | Link | Preview |
+| --- | --- | --- | --- | --- |
+| Curso - Introducao a APIs e metodos HTTP | --- | --- | --- | Nao iniciado |
+| Curso - Desenvolvimento back-end com Node.js | --- | --- | --- | Nao iniciado |
+| Curso - Introducao ao Node.js com Express | --- | --- | --- | Nao iniciado |
+| Desafio de codigo - Desafios finais Js - Spread Fullstack | --- | --- | --- | Nao iniciado |
+| Curso - Explorando o estilo arquitetural REST com Node.js | --- | --- | --- | Nao iniciado |
+| Curso - Node.js com banco de dados relacionais (SQL) | --- | --- | --- | Nao iniciado |
+| Desafio de projeto - Construindo Encurtador de URL | --- | --- | --- | Nao iniciado |
+
  
 
 ---
