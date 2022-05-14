@@ -284,6 +284,20 @@ const bootcamps = [
       "Reduce: sintaxe"
     ],
     certificate:"https://www.dio.me/certificate/4706105C/share"
+  },
+  {
+    id: "bootcamp14",
+    modulo: "Módulo III - JavaScript",
+    activity: "activity00",
+    github: "",
+    page: "",
+    post: "", 
+    image: "",
+    category: "curso",
+    tag: "javascript",
+    description: "Aprender como lidar com erros e exceções. Criar erro personalizado.",
+    learned:[],
+    certificate:""
   }
 ];
 
