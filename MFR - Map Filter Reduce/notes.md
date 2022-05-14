@@ -43,4 +43,25 @@ fruntas.filter(fruta => frutas.includes('maçã))
 //['maçã fuji', 'maça verde']
 ```
 
+--- 
+
 # AULA 3 - REDUCE
+- Executa uma função em todos os elementos do array e retorna um valor unico
+
+```
+array.reduce(callbackFn, initialValue);
+```
+
+- Callback: função a ser executada a partir do acumulador
+- initialValue(opcional): valor sobre o qual o retorno final irá atuar
+
+exemplo:
+```
+const callbackFn = function(accumulator, currentValue, index, array) {
+  //do something
+}
+
+array.reduce(callbackFn, initialValue)
+```
+Accumulator/ prevValue: acumulador de todas as chamadas de callbackFn.
+CurrentValue: elemento atual sendo acessado pela função
