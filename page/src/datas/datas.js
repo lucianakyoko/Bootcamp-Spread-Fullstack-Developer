@@ -270,15 +270,20 @@ const bootcamps = [
     id: "bootcamp13",
     modulo: "Módulo III - JavaScript",
     activity: "Curso - Map, Filter e Reduce",
-    github: "",
-    page: "",
-    post: "", 
-    image: "activity00",
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/MFR%20-%20Map%20Filter%20Reduce",
+    page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/MFR%20-%20Map%20Filter%20Reduce",
+    post: "https://www.linkedin.com/in/lucianakyoko", 
+    image: "activity13",
     category: "curso",
     tag: "javascript",
     description: "Compreender a utilização de três métodos importantes para Arrays",
-    learned:[],
-    certificate:""
+    learned:[
+      "Map: sintaxe",
+      "Map vs forEach",
+      "Filter: sintaxe",
+      "Reduce: sintaxe"
+    ],
+    certificate:"https://www.dio.me/certificate/4706105C/share"
   }
 ];
 
