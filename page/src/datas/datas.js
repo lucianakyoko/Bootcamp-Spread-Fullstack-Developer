@@ -288,11 +288,11 @@ const bootcamps = [
   {
     id: "bootcamp14",
     modulo: "Módulo III - JavaScript",
-    activity: "activity00",
+    activity: "Debugging e Error Handling",
     github: "",
     page: "",
     post: "", 
-    image: "",
+    image: "activity00",
     category: "curso",
     tag: "javascript",
     description: "Aprender como lidar com erros e exceções. Criar erro personalizado.",
