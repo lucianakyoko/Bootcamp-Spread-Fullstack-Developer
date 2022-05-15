@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { layoutColors } from '../../styles/colors';
 
 export const Logo = styled.a`
-  color: ${layoutColors.tertiary};
+  color: ${layoutColors.light2};
   font-family: 'Orbitron', sans-serif;
   font-size: 2.4rem;
 

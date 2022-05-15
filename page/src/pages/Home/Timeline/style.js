@@ -112,7 +112,7 @@ export const BootcampItemContent = styled.div`
 `
 
 export const BootcampModuleTitle = styled.h3`
-  color: ${layoutColors.tertiary};
+  color: ${layoutColors.light2};
   font-size: 2rem;
   font-weight: 700;
 `
