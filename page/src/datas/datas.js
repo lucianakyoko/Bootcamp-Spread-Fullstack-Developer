@@ -292,7 +292,7 @@ const bootcamps = [
     github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/DEH%20-%20Debugging-Error-Handling",
     page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/DEH%20-%20Debugging-Error-Handling",
     post: "https://www.linkedin.com/in/lucianakyoko", 
-    image: "activity00",
+    image: "activity14",
     category: "curso",
     tag: "javascript",
     description: "Aprender como lidar com erros e exceções. Criar erro personalizado.",
