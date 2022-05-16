@@ -118,3 +118,29 @@ tryCatchExemplo('ala');
 // A string enviada foi: ala
 // true
 ```
+
+--- 
+
+# AULA 3 - O objeto Error
+Código:
+```
+new Error(message, fileName, lineNumber)
+
+//todos os parâmetros são opcionais
+
+const meuErro = new Error('Mesagem Inválida');
+
+throw MeuErro;
+
+// Uncaught Error: Mensagem Inválida at <anonymos>:1:17
+```
+
+O erro também pode ter um nome
+```
+const MeuErro = newError('Mensagem Inválida);
+MeuErro.name = 'InvalidMessage';
+
+throw MeuErro;
+
+// Uncaught InvalidMessage: Mensagem Inválida at <anonymos>:3:17
+```
