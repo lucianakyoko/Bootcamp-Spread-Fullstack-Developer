@@ -289,15 +289,22 @@ const bootcamps = [
     id: "bootcamp14",
     modulo: "Módulo III - JavaScript",
     activity: "Debugging e Error Handling",
-    github: "",
-    page: "",
-    post: "", 
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/DEH%20-%20Debugging-Error-Handling",
+    page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/DEH%20-%20Debugging-Error-Handling",
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity00",
     category: "curso",
     tag: "javascript",
     description: "Aprender como lidar com erros e exceções. Criar erro personalizado.",
-    learned:[],
-    certificate:""
+    learned:[
+      "ECMAScript Error",
+      "DOMException",
+      "Throw",
+      "Try/ Catch",
+      "Finally",
+      "Objeto Error"
+    ],
+    certificate:"https://www.dio.me/certificate/4D7F4AFB/share"
   }
 ];
 
