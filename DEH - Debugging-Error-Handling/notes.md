@@ -46,6 +46,7 @@ function verificaPalindromo(string) {
 ```
 
 ## Try/Catch:
+Dentro do bloco try são executadas instruções e caso ocorra algum erro durante o processo, ele será tratado no bloco catch
 ```
 function verificaPalindromo(string) {
   if(!string) throw "String inválida";
