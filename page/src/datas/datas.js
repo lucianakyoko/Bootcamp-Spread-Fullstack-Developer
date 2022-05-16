@@ -305,6 +305,20 @@ const bootcamps = [
       "Objeto Error"
     ],
     certificate:"https://www.dio.me/certificate/4D7F4AFB/share"
+  },
+  {
+    id: "bootcamp15",
+    modulo: "Módulo III - JavaScript",
+    activity: "JavaScript Assíncrono",
+    github: "",
+    page: "",
+    post: "", 
+    image: "activity00",
+    category: "curso",
+    tag: "javascript",
+    description: "Compreender o conceito de assincronicidade, Promises e requisições de APIs",
+    learned:[],
+    certificate:""
   }
 ];
 
@@ -314,11 +328,11 @@ export default bootcamps;
 {
     id: "bootcampXX",
     modulo: "",
-    activity: "activity00",
+    activity: "",
     github: "",
     page: "",
     post: "", 
-    image: "",
+    image: "activity00",
     category: "",
     tag: "",
     description: "",
