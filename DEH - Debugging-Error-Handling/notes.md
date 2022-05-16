@@ -15,6 +15,106 @@ Erros que ocorrem em tempos de execução.
 ## DOMException:
 Erros relacionados ao Document Object Model (DOM).
 
+---
+
+# AULA 2 - Throw, Try/Catch e Finally
+## Throw:
+
+Diferenças entre o trow e return:
+
+```
+function verificaPalindromo(string) {
+  if(!string) return "String inválida";
+
+  return string = string.split('').reverse().join('');
+}
+
+verificaPalindromo('cat)
+
+//"String inválida
+```
+
+Ao utilizar o throw, teremos o comportamento no console com a mensagem de erro e todas as suas propriedades.
+```
+function verificaPalindromo(string) {
+  if(!string) throw "String inválida";
+
+  return string = string.split('').reverse().join('');
+}
+
+//Uncaught String inválida
+```
+
+## Try/Catch:
+```
+function verificaPalindromo(string) {
+  if(!string) throw "String inválida";
+
+  return string === string.split(''). reverse().join('');
+}
+
+function tryCatchExemplo(string) {
+  try {
+    verificaPalindromo(string)
+  }
+  catch(e) {
+    console.log(e)
+  }
+}
+
+tryCatchExemplo('');
+
+//String inválida
+```
+
+```
+function verificaPalindromo(string) {
+  if(!string) throw "String inválida";
+
+  return string === string.split(''). reverse().join('');
+}
+
+function tryCatchExemplo(string) {
+  try {
+    verificaPalindromo(string)
+  }
+  catch(e) {
+    throw e;
+  }
+}
+
+tryCatchExemplo('');
+
+// Uncaught String inválida
+```
+
+## Finally:
+É uma instrução que é executada independente se houve ou não um erro
+```
+function verificaPalindromo(string) {
+  if(!string) throw "String inválida";
+
+  return string === string.split(''). reverse().join('');
+}
+
+function tryCatchExemplo(string) {
+  try {
+    verificaPalindromo(string)
+  }
+  catch(e) {
+    throw e;
+  }
+  finally {
+    console.log('A string enviada foi: ' + string)
+  }
+}
+
+tryCatchExemplo('');
+// A string enviada foi:
+// Uncaught String inválida
 
 
-# AULA 2 - Throw, TryCatch e Finally
+tryCatchExemplo('ala');
+// A string enviada foi: ala
+// true
+```
