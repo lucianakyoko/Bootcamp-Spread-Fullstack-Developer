@@ -33,12 +33,12 @@ Este respositório é destinado para organizar os projetos e desafios desenvolvi
 | Curso - Funções | [Abrir repositorio](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/F-Funcoes) | [Abrir anotacoes](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/F-Funcoes/anotacoes.md) | x | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/page/public/projects/activity11.jpg"> | Finalizado |
 | Curso - Coleções | [Abrir repositorio](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/C-Colecoes) | [Abrir anotacoes](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/C-Colecoes/notes.md) | x | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/page/public/projects/activity12.jpg"> | Finalizado |
 | Curso - Map, Filter e Reduce | [Abrir repositorio](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/MFR%20-%20Map%20Filter%20Reduce) | [abrir anotacoes](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/MFR%20-%20Map%20Filter%20Reduce/notes.md) | x | <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/page/public/projects/activity13.jpg"> | Finalizado |
-| Curso - Debbugin e Error Handling | --- | --- | --- | ---| Em andamento |
-| Curso - JavaScript assincrono | --- | --- | --- | ---| Nao iniciado |
-| Curso - Orientacao a Objetos | --- | --- | --- | ---| Nao iniciado |
-| Curso - Trabalhando com Modulos em JavaScript | --- | --- | --- | ---| Nao iniciado |
+| Curso - Debbugin e Error Handling | [Abrir repositorio](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/DEH%20-%20Debugging-Error-Handling) | [Abrir anotacoes](https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/DEH%20-%20Debugging-Error-Handling/notes.md) | x |  <img align="center" alt="Miniatura da imagem do projeto" height="80" width="120" src="https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/blob/main/page/public/projects/activity14.jpg"> | Finalizado |
+| Curso - JavaScript assincrono | --- | --- | --- | --- | Nao iniciado |
+| Curso - Orientacao a Objetos | --- | --- | --- | --- | Nao iniciado |
+| Curso - Trabalhando com Modulos em JavaScript | --- | --- | --- | --- | Nao iniciado |
 | Curso - Manipulando a DOM com JavaScript | --- | --- | --- | ---| Nao iniciado |
-| Curso - Introducao ao Typescript: explorando classes, tipos e interfaces | --- | --- | --- | ---| Nao iniciado |
+| Curso - Introducao ao Typescript: explorando classes, tipos e interfaces | --- | --- | --- | --- | Nao iniciado |
 | Desafio de codigo - Desafios iniciais Js - Spread Fullstack| --- | --- | --- | ---| Nao iniciado |
 | Desafio de projeto - Aprenda a criar um sistema de estacionamento usando JS| --- | --- | --- | ---| Nao iniciado |
 ---
