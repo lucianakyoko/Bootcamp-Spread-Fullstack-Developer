@@ -88,3 +88,54 @@ async function resolvePromise() {
   return result;
 }
 ```
+
+--- 
+
+
+# AULA 2 - CONSUMINDO APIs
+## O que são APIs?
+Aplication Programming Interface
+
+Uma API é uma forma de intermediar os resultados do back-end com o que é apresentado no front-end.
+
+Você consegue acessá-la por meio de URLs
+![](./img/class02-api.JPG)
+
+## JSON: JavaScript Object Notation
+É muito comum que APIs retornem seus dados no formato .json, por tanto precisamos tratar esses daod quando os recebermos
+
+## fetch
+Consumindo APIs
+
+```
+fetch(url, options)
+  .then(response => response.json())
+  .then(json => console.log(json))
+
+//retorna uma Promise
+```
+
+Operações no banco (POST, GET, PUT, DELETE, etc.)
+
+```
+fetch('https://endereco-api.com/', {
+  method: 'GET',
+  cache: 'no-cache',
+})
+  .then(response => response.json())
+  .then(json => console.log(json))
+
+//retorna uma Promise
+```
+
+```
+fetch('https://endereco-api.com/', {
+  method: 'POST',
+  cache: 'no-cache',
+  body: JSON.stringfy(data)
+})
+  .then(response => response.json())
+  .then(json => console.log(json))
+
+//retorna uma Promise
+```
