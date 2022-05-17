@@ -310,15 +310,19 @@ const bootcamps = [
     id: "bootcamp15",
     modulo: "Módulo III - JavaScript",
     activity: "JavaScript Assíncrono",
-    github: "",
-    page: "",
-    post: "", 
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/JA-JavaScript-Assincrono",
+    page: "https://prismatic-kheer-09b1f7.netlify.app/",
+    post: "https://www.linkedin.com/in/lucianakyoko", 
     image: "activity00",
     category: "curso",
     tag: "javascript",
     description: "Compreender o conceito de assincronicidade, Promises e requisições de APIs",
-    learned:[],
-    certificate:""
+    learned:[
+      "Promises",
+      "Async/ await",
+      "APIs e Fetch"
+    ],
+    certificate:"https://www.dio.me/certificate/0C5CEB1E/share"
   }
 ];
 
