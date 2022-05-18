@@ -342,6 +342,21 @@ const bootcamps = [
       "Classes"
     ],
     certificate:"https://www.dio.me/certificate/EAFB5DDF/share"
+  },
+
+  {
+    id: "bootcamp17",
+    modulo: "Módulo III - JavaScript",
+    activity: "Trabalhando com Módulos em JavaScript",
+    github: "",
+    page: "",
+    post: "", 
+    image: "activity00",
+    category: "curso",
+    tag: "javascript",
+    description: "",
+    learned:[],
+    certificate:""
   }
 ];
 
