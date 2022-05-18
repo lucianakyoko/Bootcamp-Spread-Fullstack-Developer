@@ -328,15 +328,20 @@ const bootcamps = [
     id: "bootcamp16",
     modulo: "Módulo III - JavaScript",
     activity: "Orientação a Objetos",
-    github: "",
-    page: "",
-    post: "", 
-    image: "activity00",
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/OO-Orientacao-Objetos",
+    page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/OO-Orientacao-Objetos",
+    post: "https://www.linkedin.com/in/lucianakyoko", 
+    image: "activity16",
     category: "curso",
     tag: "javascript",
-    description: "",
-    learned:[],
-    certificate:""
+    description: "Compreender o conceito de Orientação a Objetos, seus principais pilares, e como o JavaScript lida com esse paradigma",
+    learned:[
+      "Paradigmas",
+      "Pilares da Orientação a Objetos",
+      "Protótipos",
+      "Classes"
+    ],
+    certificate:"https://www.dio.me/certificate/EAFB5DDF/share"
   }
 ];
 
