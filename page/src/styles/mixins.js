@@ -30,7 +30,7 @@ export const lightBg1 = (color, top, left) => {
     position: absolute;
     top: ${top}rem;
     left: ${left}%;
-    z-index:-2;
+    z-index:-4;
   }
   `
 }
@@ -48,7 +48,7 @@ export const lightBg2 = (color, top, left) => {
     position: absolute;
     top: ${top}rem;
     left: ${left}%;
-    z-index:-2;
+    z-index:-4;
   }
   `
 }

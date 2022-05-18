@@ -11,7 +11,7 @@ import {
 } from './style';
 
 export function ProjectItem(props) {
-  const {id, image, activity, tag, category} = props;
+  const {id, image, activity, category} = props;
   return (
     <ProjectItemWrapper>
       <Link to={`/projetos/${id}`}>

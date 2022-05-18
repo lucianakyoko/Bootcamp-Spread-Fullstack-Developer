@@ -4,12 +4,13 @@ import { lightBg1,  lightBg2} from "../../styles/mixins";
 
 export const ProjectFullSection = styled.section`
   width: 100%;
+  min-height: 800px;
   overflow-x: hidden;
   padding: 2.4rem;
 
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 8rem;
 
   ${lightBg1(layoutColors.light1, 10, 80)};
   ${lightBg2(layoutColors.light2, 60, -40)};
