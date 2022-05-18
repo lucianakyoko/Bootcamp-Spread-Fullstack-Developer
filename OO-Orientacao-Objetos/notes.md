@@ -32,3 +32,19 @@ Objetos podem herdar a mesma classe pai, mas se comportarem de forma diferente q
 
 ### Encapsulamento:
 Cada classe tem propriedades e métodos independentes do restante do código
+
+---
+
+# AULA 2 - PROTÓTIPOS E CLASSES
+## Protótipos
+Todos os objetos JavaScript herdam propriedades e métodos de um prototype. O objeto Object.prototype está no topo desta cadeia;
+
+![](./images//class02-prototype.JPG)
+
+
+## Classes
+Syntatic sugas: uma sintaxe feita para facilitar a escrita
+![](./images/class02-classes.JPG)
+
+O javaScript não possui classes nativamente. Todas as classes são objetos e a herança se dá por protótipos
+![](./images//class02-classes1.JPG)
