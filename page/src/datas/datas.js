@@ -348,15 +348,23 @@ const bootcamps = [
     id: "bootcamp17",
     modulo: "Módulo III - JavaScript",
     activity: "Trabalhando com Módulos em JavaScript",
-    github: "",
-    page: "",
-    post: "", 
-    image: "activity00",
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/TMJ-Trabalhando-Com-Modulos-No-JS",
+    page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/TMJ-Trabalhando-Com-Modulos-No-JS",
+    post: "https://www.linkedin.com/in/lucianakyoko", 
+    image: "activity17",
     category: "curso",
     tag: "javascript",
-    description: "",
-    learned:[],
-    certificate:""
+    description: "Compreender sobre a necessidade do uso de módulos e como utilizá-los",
+    learned:[
+      "O que são módulos no JS",
+      "Vantagens dos módulos",
+      "Named exports",
+      "Default exports",
+      "Imports",
+      "Importar todos os dados de um arquivos",
+      "Vinculando ao HTML"
+    ],
+    certificate:"https://www.dio.me/certificate/056A9EE6/share"
   }
 ];
 
