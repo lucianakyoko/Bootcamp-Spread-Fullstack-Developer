@@ -365,6 +365,20 @@ const bootcamps = [
       "Vinculando ao HTML"
     ],
     certificate:"https://www.dio.me/certificate/056A9EE6/share"
+  },
+  {
+    id: "bootcamp18",
+    modulo: "Módulo III - JavaScript",
+    activity: "Manipulando a D.O.M com JavaScript",
+    github: "",
+    page: "",
+    post: "", 
+    image: "activity00",
+    category: "curso",
+    tag: "javascript",
+    description: "Compreender o conceito de DOM, as diferenças entre DOM e BOM e principais métodos para manipular páginas web",
+    learned:[],
+    certificate:""
   }
 ];
 
