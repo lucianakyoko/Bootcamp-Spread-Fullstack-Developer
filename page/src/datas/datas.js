@@ -376,7 +376,7 @@ const bootcamps = [
     image: "activity18",
     category: "curso",
     tag: "javascript",
-    description: "Compreender o conceito de DOM, as diferenças entre DOM e BOM e principais métodos para manipular páginas web",
+    description: "Compreender o conceito de DOM, as diferenças entre DOM e BOM e principais métodos para manipular páginas web.",
     learned:[
       "O que é D.O.M",
       "D.O.M vs B.O.M",
