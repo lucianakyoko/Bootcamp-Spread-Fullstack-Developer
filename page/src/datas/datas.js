@@ -370,14 +370,21 @@ const bootcamps = [
     id: "bootcamp18",
     modulo: "Módulo III - JavaScript",
     activity: "Manipulando a D.O.M com JavaScript",
-    github: "",
-    page: "",
-    post: "", 
-    image: "activity00",
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/MDOMJS-Manipulando-DOM-com-JavaScript",
+    page: "https://sensational-pudding-461957.netlify.app/",
+    post: "https://www.linkedin.com/in/lucianakyoko", 
+    image: "activity18",
     category: "curso",
     tag: "javascript",
     description: "Compreender o conceito de DOM, as diferenças entre DOM e BOM e principais métodos para manipular páginas web",
-    learned:[],
+    learned:[
+      "O que é D.O.M",
+      "D.O.M vs B.O.M",
+      "Métodos",
+      "Tralhar com estilos",
+      "Tipos de eventos",
+      "Como adicionar eventos"
+    ],
     certificate:""
   }
 ];
