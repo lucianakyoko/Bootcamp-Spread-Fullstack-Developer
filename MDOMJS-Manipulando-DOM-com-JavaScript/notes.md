@@ -28,6 +28,18 @@ Adicionar e deletar:
 | document.appendChild(element) | adiciona um elemento |
 | document.replaceChild(new, old) | substitui um elemento |
 
+---
 
 # AULA 3 - TRABALHANDO COM ESTILOS
+## Element.classList:
+![](./img/class03-trabalhando-com-estilos.JPG)
+![](./img/class03-trabalhando-com-estilos1.JPG)
+
+## Acessando diretamente o CSS de um elemento:
+```
+document.getElementByTagName("p").style.color = 'blue';
+```
+
+
+
 # AULA 4 - EVENTOS
