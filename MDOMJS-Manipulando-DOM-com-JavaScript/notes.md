@@ -40,6 +40,45 @@ Adicionar e deletar:
 document.getElementByTagName("p").style.color = 'blue';
 ```
 
-
+---
 
 # AULA 4 - EVENTOS
+## Tipos:
+* Eventos do mouse:
+  - mouseover
+  - mouseout
+
+* Eventos de clique:
+  - click
+  - dbclick
+
+* Eventos de atualização:
+  - change
+  - load
+
+## Event listener:
+Diretamente no JavaScript, cria um evento que vai ser acionado no momento em que o usuário realizar uma deteminada ação:
+
+```
+const botao = document.getElementById("meuBotao");
+botao.addEventListener("click", outraFuncao);
+```
+
+## Atributo HTML:
+
+Especifica a função a ser chamada diretamente no elemento HTML.
+
+```
+<html>
+  <body>
+    <h1 onclick="mudaTexto(this)">Clique aqui</h1>
+
+    <script>
+      function mudaTexto(id) {
+        id.innerHtml = 'Mudei!';
+      }
+    </script>
+  </body>
+
+</html>
+```
