@@ -386,6 +386,20 @@ const bootcamps = [
       "Como adicionar eventos"
     ],
     certificate:"https://www.dio.me/certificate/2060D9F0/share"
+  },
+  {
+    id: "bootcamp19",
+    modulo: "Módulo III - JavaScript",
+    activity: "Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces",
+    github: "",
+    page: "",
+    post: "", 
+    image: "activity00",
+    category: "curso",
+    tag: "javascript",
+    description: "Aprender sobre o conceito do TypeScript, sobre o uso e suas vantanges.",
+    learned:[],
+    certificate:""
   }
 ];
 
