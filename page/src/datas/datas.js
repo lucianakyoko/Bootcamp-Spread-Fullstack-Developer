@@ -391,15 +391,25 @@ const bootcamps = [
     id: "bootcamp19",
     modulo: "Módulo III - JavaScript",
     activity: "Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces",
-    github: "",
-    page: "",
-    post: "", 
-    image: "activity00",
+    github: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/IT-Introducao-aoTypeScript",
+    page: "https://github.com/lucianakyoko/Bootcamp-Spread-Fullstack-Developer/tree/main/IT-Introducao-aoTypeScript",
+    post: "https://www.linkedin.com/in/lucianakyoko", 
+    image: "activity19",
     category: "curso",
     tag: "javascript",
     description: "Aprender sobre o conceito do TypeScript, sobre o uso e suas vantanges.",
-    learned:[],
-    certificate:""
+    learned:[
+      "Vantagens do typescript",
+      "executar comando parcel",
+      "como funcionam as interfaces",
+      "como funcionam os types",
+      "Generic types",
+      "condicionais a partir de parametros",
+      "caracter '?' para variáveis opcionais",
+      "readonly e private",
+      "como usar o Omit"
+    ],
+    certificate:"https://www.dio.me/certificate/926D2E32/share"
   }
 ];
 
